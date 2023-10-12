@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 3</title>
+    <style>
+        #Boton{
+            position: absolute;
+            top: 100px;
+            left: 550px;
+        }
+        #total{
+            position:absolute;
+            top: 100px;
+            left:130px;
+        }
+        #TotalB{
+            position: absolute;
+            top:84px;
+            left:10px;
+        }
+        #PorcP{
+            position: absolute;
+            top:84px;
+            left:320px;
+            
+        }
+        #porcentajes{
+            position: absolute;
+            top:100px;
+            left:470px;
+        }
+        #propina{
+            position: absolute;
+            top:110px;
+            left:10px;
+        }
+        #TotalaPagar{
+            position: absolute;
+            top:130px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora de propinas
+    </h1>
+    <input id="Total" value="calcular">
+    <p id = "TotalB">Total de la Boleta:
+    </p>
+    <p id = "PorcP">Porcentaje de propina:
+    </p>
+    <select id = "porcentajes">
+        <option value="5">5</option>
+        <option value="10%">10%</option>
+        <option value="15%">15%</option>
+        <option value="20%">20%</option>
+        <option value="25%">25%</option>
+        <option value="30%">30%</option>
+        <option value="35%">35%</option>
+        <option value="40%">40%</option>
+        <option value="45%">45%</option>
+        <option value="50%">50%</option>
+        <option value="55%">55%</option>
+        <option value="60%">60%</option>
+        <option value="65%">65%</option>
+        <option value="70%">70%</option>
+        <option value="75%">75%</option>
+        <option value="80%">80%</option>
+        <option value="85%">85%</option>
+        <option value="90%">90%</option>
+        <option value="95%">95%</option>
+        <option value="100%">100%</option>
+    </select>
+    <button id ="Boton">calcular
+    </button>
+    <p id = "propina" >Propina: 
+    </p>
+    <p id = "TotalaPagar" >Total a Pagar:
+    </p>
+    <script src="../JS/retoN3.js">
+    </script>
+</body>
+</html>
