@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #Titulo{
+                position: absolute;
+                font-family:cursive;
+                font-size: 50px;
+            }
+            #Nombre{
+                position: absolute;
+                top: 150px;
+                font-family:cursive;
+                font-size: 30px;
+            }
+            #Nom{
+                position: absolute;
+                top: 187px;
+                left: 190px;
+                font-family:cursive;
+                font-size: 20px;
+            }
+            #Peso{
+                position: absolute;
+                top: 230px;
+                font-family:cursive;
+                font-size: 30px;
+            }
+            #kg{
+                position: absolute;
+                top: 265px;
+                left: 190px;
+                font-family:cursive;
+                font-size: 20px;
+            }
+            #Altura{
+                position: absolute;
+                top: 300px;
+                font-family:cursive;
+                font-size: 30px;
+            }
+            #Alt{
+                position: absolute;
+                top: 340px;
+                left: 190px;
+                font-family:cursive;
+                font-size: 20px;
+            }
+            #Edad{
+                position: absolute;
+                top: 370px;
+                font-family:cursive;
+                font-size: 30px;
+            }
+            #Ed{
+                position: absolute;
+                top: 410px;
+                left: 190px;
+                font-family:cursive;
+                font-size: 20px;
+            }
+            #Gen{
+                position: absolute;
+                top: 440px;
+                font-family:cursive;
+                font-size: 30px;
+            }
+            #Genero{
+                position: absolute;
+                top: 475px;
+                left: 190px;
+                font-family:cursive;
+                font-size: 20px;
+            }
+            #Actividad{
+                position: absolute;
+                top: 500px;
+                font-family:cursive;
+                font-size: 30px;
+            }
+            #Act{
+                position: absolute;
+                top: 535px;
+                left: 250px;
+                font-family:cursive;
+                font-size: 20px;
+                
+            }
+            #Calcular{
+                position: absolute;
+                top: 600px;
+                left: 10px;
+                font-family:cursive;
+                font-size: 20px;
+            }
+            #ResultadoN{
+                position: absolute;
+                font-family:cursive;
+                font-size: 50px;
+                top: 700px;
+            }
+            #ResultadoIMC{
+                position: absolute;
+                font-family:cursive;
+                font-size: 20px;
+                top: 800px;
+            }
+            #ResultadoClas{
+                position: absolute;
+                font-family:cursive;
+                font-size: 20px;
+                top: 850px;
+            }
+            #Gastoenergetico{
+                position: absolute;
+                font-family:cursive;
+                font-size: 20px;
+                top: 900px;
+            }            
+            #EstadoNutricional{
+                position: absolute;
+                font-family:cursive;
+                font-size: 20px;
+                top: 950px;
+            }
+        </style>
+    </head>
+    <body>
+        <p id= "Titulo"> Calculadora IMC</p>
+        <p id="Nombre">Nombre:</p>
+        <input type="text" id="Nom">
+
+        <p id = "Peso">Peso (Kg):</p>
+        <input type="number" id="kg">
+
+        <p id = "Altura">Altura (m):</p>
+        <input type="number" id = "Alt">
+
+        <p id = "Edad">Edad:</p>
+        <input type="number" id="Ed">
+        <p id ="Gen">Genero:</p>
+        <select  id="Genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select>
+
+        <p id = "Actividad">Actividad física:</p>
+        <select id="Act">
+            <option value="Sedentario">Sedentario</option>
+            <option value="Moderado">Moderado</option>
+            <option value="Activo">Activo</option>
+        </select>
+
+        <button id = "Calcular" onclick="Resultado()">Calcular</button>
+
+        <p id="ResultadoN"></p>
+        <p id="ResultadoIMC"></p>
+        <p id="ResultadoClas"></p>
+        <p id="Gastoenergetico"></p>
+        <p id="EstadoNutricional"></p>
+
+
+
+        <script src="Reto4.js"></script>
+
+    </body>
+</html>
