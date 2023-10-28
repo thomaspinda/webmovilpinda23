@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,8 +18,12 @@
           <label for="opcion3" id="label3"></label><br>
           <input type="radio" name="respuesta" id="opcion4">
           <label for="opcion4" id="label4"></label><br>
-          <button id="siguiente-pregunta">Siguiente Pregunta</button>
+          <button id="siguiente-pregunta" onclick="entregarRespuesta()">Siguiente Pregunta</button>
         </form>
+      </div>
+      <div class="Puntaje">
+        <label for="Puntos">Puntaje</label><br>
+        <p class="Puntos" id="Puntos"></p>
       </div>
           <script src="pagina.js"></script>
 </body>

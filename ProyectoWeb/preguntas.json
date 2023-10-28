@@ -19,6 +19,11 @@
         "pregunta": "'¿A qué país pertenecen las Islas Malvinas?",
         "respuestas": ["Argentina", "Inglaterra", "Uruguay", "Bolivia"],
         "respuesta_correcta": "Inglaterra"
+      },
+      {
+        "pregunta":"¿Cuántas regiones tiene Chile",
+        "respuestas":["16","15","13","11"],
+        "respuesta_correcta":"16"
       }
     ]
   }

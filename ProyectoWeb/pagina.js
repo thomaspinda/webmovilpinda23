@@ -19,6 +19,10 @@ function botonEntrar(){
         entrar.setAttribute("disabled", "disabled");
     }
 }
+function botonTutorial(){
+    window.location.href = "pagina4.html";
+}
+let puntos = 1;
 function botonGeografia(){
     window.location.href = "pagina3.html";
 }
@@ -36,13 +40,11 @@ function cargarPreguntas(){
         mostrarPregunta(preguntaActual);
     })
 }
-
 function mostrarPregunta(indice){
     const preguntaContainer = document.getElementById("pregunta-container");
     const preguntaElement = document.getElementById("pregunta");
     const respuestasForm = document.getElementById("respuestas-form");
     const siguientePreguntaButton = document.getElementById("siguiente-pregunta");
-
     if(indice < preguntas.length){
         const pregunta = preguntas[indice];
         preguntaElement.textContent = pregunta.pregunta;
@@ -66,11 +68,11 @@ function mostrarPregunta(indice){
         siguientePreguntaButton.disabled = true;
         respuestasForm.reset();
         preguntaContainer.style.display = "block";
-
-    } else{
+    }else{
         preguntaContainer.style.display = "none";
-        console.log("Todas las preguntas han sido respondidas.");
+
     }
+
 }
 function manejarRespuesta() {
     const selectedAnswer = document.querySelector('input[name="respuesta"]:checked');
@@ -82,23 +84,31 @@ function manejarRespuesta() {
   
       if (respuesta === pregunta.respuesta_correcta) {
         console.log("¡Respuesta correcta!");
+
+        return console.log(puntos++);;
       } else {
         console.log("Respuesta incorrecta. La respuesta correcta es: " + pregunta.respuesta_correcta);
-      }
+        return console.log(puntos--);
+    }
     } else {
       siguientePreguntaButton.disabled = true;
     }
   }
 const siguientePreguntaButton = document.getElementById("siguiente-pregunta");
 siguientePreguntaButton.addEventListener("click", function () {
+    document.getElementById("Puntos").innerHTML = puntos;
     manejarRespuesta();
     preguntaActual++;
+    if(preguntaActual>=preguntas.length){
+        window.location.href="pagina5.html";
+    }else{
     mostrarPregunta(preguntaActual);
+    }
 });
+
 const respuestasInputs = document.querySelectorAll('input[name="respuesta"]');
 respuestasInputs.forEach(function (input) {
   input.addEventListener("change", manejarRespuesta);
 });
   
-
 window.onload = cargarPreguntas;

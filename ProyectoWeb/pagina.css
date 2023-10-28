@@ -149,6 +149,16 @@ body {
       transform: rotate(360deg); 
     }
 }
+.Tutorial{
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+  background-color: #FF5B00;
+  border-radius: 10%;
+}
 .Compuerta{
   background-color: #C70039;
   width: 100%;
@@ -172,7 +182,6 @@ body {
       }
 
 }
-
 .Categorias{
   position: relative;
   left: -10px;
@@ -236,13 +245,39 @@ body {
   width: 50px;
   left:1270px;
 }
-.Menú{
-  position: relative;
-  width: 50px;
-  height: 50px;
-}
 .pregunta-container{
   position: relative;
   left: 500px;
   top: 100px;
+}
+.Puntaje{
+  position: absolute;
+  top:10px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  color: #900C3F;
+}
+.TutorialP{
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  font-size: 30px;
+}
+.PuntajeT{
+  font-size: 50px;
+}
+.Expl{
+  position: absolute;
+  top: 250px;
+  font-size: 20px;
+}
+.Volver{
+  position: absolute;
+  top: 10px;
+  left: 1200px;
+  width: 100px;
+  height: 60px;
+  font-size: large;
+  background-color: #FF5B00;
+  border-radius: 10%;
 }
