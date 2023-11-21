@@ -1,0 +1,56 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es el resultado de la integral definida de x^2 desde 0 hasta 4?",
+      "respuestas": ["4", "8", "12", "16"],
+      "respuesta_correcta": "16"
+    },
+    {
+      "pregunta": "¿Cuál es el valor de ln(e^3)?",
+      "respuestas": ["0", "1", "2", "3"],
+      "respuesta_correcta": "3"
+    },
+    {
+      "pregunta": "¿Cuál es el resultado de 3^(1/2) + 4^(1/2)?",
+      "respuestas": ["2", "3", "4", "5"],
+      "respuesta_correcta": "5"
+    },
+    {
+      "pregunta": "¿Cuál es la solución a la ecuación 2x^2 + 5x - 3 = 0?",
+      "respuestas": ["x = -3, x = 1/2", "x = -1/3, x = 3", "x = -2, x = 3/2", "x = 1, x = 3"],
+      "respuesta_correcta": "x = -3, x = 1/2"
+    },
+    {
+      "pregunta": "¿Cuál es el valor de sen(π/4)?",
+      "respuestas": ["0", "1/2", "√2/2", "1"],
+      "respuesta_correcta": "√2/2"
+    },
+    {
+      "pregunta": "¿Cuál es el resultado de la derivada de e^x?",
+      "respuestas": ["e^x", "1", "x", "0"],
+      "respuesta_correcta": "e^x"
+    },
+    {
+      "pregunta": "¿Cuál es el resultado de log_2(8)?",
+      "respuestas": ["1", "2", "3", "4"],
+      "respuesta_correcta": "3"
+    },
+    {
+      "pregunta": "¿Cuál es el valor de cos(π/3)?",
+      "respuestas": ["0", "1/2", "√2/2", "1"],
+      "respuesta_correcta": "1/2"
+    },
+    {
+      "pregunta": "¿Cuál es el área de un triángulo con base de longitud 6 y altura de 8?",
+      "respuestas": ["16", "24", "32", "48"],
+      "respuesta_correcta": "24"
+    },
+    {
+      "pregunta": "¿Cuál es el resultado de la serie geométrica 1/2 + 1/4 + 1/8 + 1/16 + ...?",
+      "respuestas": ["1", "2", "1/2", "∞"],
+      "respuesta_correcta": "1"
+    }
+  ]
+}
+
+  

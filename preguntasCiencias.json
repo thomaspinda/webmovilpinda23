@@ -1,0 +1,199 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿Qué es la ley de la conservación de la energía?",
+        "respuestas": ["La energía no se crea ni se destruye, solo se transforma.", "La energía se crea a partir de la nada.", "La energía se pierde con el tiempo.", "La energía es ilimitada."],
+        "respuesta_correcta": "La energía no se crea ni se destruye, solo se transforma."
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la fuerza en el sistema internacional?",
+        "respuestas": ["Kilogramo", "Metro", "Segundo", "Newton"],
+        "respuesta_correcta": "Newton"
+      },
+      {
+        "pregunta": "¿Qué tipo de energía se obtiene de la radiación solar?",
+        "respuestas": ["Energía eólica", "Energía geotérmica", "Energía solar", "Energía hidráulica"],
+        "respuesta_correcta": "Energía solar"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula química del agua?",
+        "respuestas": ["CO2", "H2O", "CH4", "O2"],
+        "respuesta_correcta": "H2O"
+      },
+      {
+        "pregunta": "¿Cuál es la partícula subatómica con carga negativa?",
+        "respuestas": ["Protón", "Neutrón", "Electrón", "Átomo"],
+        "respuesta_correcta": "Electrón"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la aceleración debida a la gravedad en la Tierra?",
+        "respuestas": ["Voltio", "Watt", "Julio", "Metro por segundo cuadrado"],
+        "respuesta_correcta": "Metro por segundo cuadrado"
+      },
+      {
+        "pregunta": "¿Qué gas es necesario para que ocurra la combustión?",
+        "respuestas": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Hidrógeno"],
+        "respuesta_correcta": "Oxígeno"
+      },
+      {
+        "pregunta": "¿Cuál es la fuerza que mantiene a los objetos en movimiento en línea recta?",
+        "respuestas": ["Fuerza de fricción", "Fuerza centrífuga", "Fuerza gravitatoria", "Inercia"],
+        "respuesta_correcta": "Inercia"
+      },
+      {
+        "pregunta": "¿Cuál es la distancia total recorrida por un objeto en movimiento?",
+        "respuestas": ["Velocidad", "Aceleración", "Desplazamiento", "Recorrido"],
+        "respuesta_correcta": "Recorrido"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la potencia?",
+        "respuestas": ["Voltio", "Vatio", "Ohmio", "Amperio"],
+        "respuesta_correcta": "Vatio"
+      },
+      {
+        "pregunta": "¿Cuál es la ley de la acción y reacción?",
+        "respuestas": ["Primera ley de la termodinámica", "Ley de Coulomb", "Ley de Ohm", "Tercera ley de Newton"],
+        "respuesta_correcta": "Tercera ley de Newton"
+      },
+      {
+        "pregunta": "¿Cuál es la fuerza que mantiene a los planetas en órbita alrededor del Sol?",
+        "respuestas": ["Gravedad", "Magnetismo", "Fuerza nuclear fuerte", "Fuerza electromagnética"],
+        "respuesta_correcta": "Gravedad"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la corriente eléctrica?",
+        "respuestas": ["Ohmio", "Voltio", "Amperio", "Vatio"],
+        "respuesta_correcta": "Amperio"
+      },
+      {
+        "pregunta": "¿Cuál es la parte del átomo con carga positiva?",
+        "respuestas": ["Electrón", "Neutrón", "Protón", "Quark"],
+        "respuesta_correcta": "Protón"
+      },
+      {
+        "pregunta": "¿Qué tipo de energía se obtiene de la caída del agua desde una altura?",
+        "respuestas": ["Energía geotérmica", "Energía solar", "Energía hidráulica", "Energía eólica"],
+        "respuesta_correcta": "Energía hidráulica"
+      },
+      {
+        "pregunta": "¿Cuál es la ley de la reflexión de la luz?",
+        "respuestas": ["Ley de Snell", "Ley de Hooke", "Ley de Faraday", "Ley de la reflexión"],
+        "respuesta_correcta": "Ley de la reflexión"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula para calcular la densidad de un objeto?",
+        "respuestas": ["Densidad = Volumen x Masa", "Densidad = Masa x Aceleración", "Densidad = Fuerza / Área", "Densidad = Potencia / Tiempo"],
+        "respuesta_correcta": "Densidad = Masa x Volumen"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula de la ley de Ohm?",
+        "respuestas": ["V = I x R", "F = ma", "E = mc^2", "P = F/A"],
+        "respuesta_correcta": "V = I x R"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la temperatura en el sistema internacional?",
+        "respuestas": ["Grado Celsius", "Kelvin", "Fahrenheit", "Rankine"],
+        "respuesta_correcta": "Kelvin"
+      },
+      {
+        "pregunta": "¿Cuál es la fuerza que mantiene a la Luna en órbita alrededor de la Tierra?",
+        "respuestas": ["Gravedad", "Fuerza centrífuga", "Fuerza electromagnética", "Fuerza nuclear débil"],
+        "respuesta_correcta": "Gravedad"
+      },
+      {
+        "pregunta": "¿Qué es la inercia?",
+        "respuestas": ["La tendencia de los objetos a permanecer en reposo", "La tendencia de los objetos a acelerar constantemente", "La tendencia de los objetos a cambiar de forma", "La tendencia de los objetos a mantener su estado de movimiento"],
+        "respuesta_correcta": "La tendencia de los objetos a mantener su estado de movimiento"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la energía en el sistema internacional?",
+        "respuestas": ["Vatio", "Joule", "Watt", "Hertz"],
+        "respuesta_correcta": "Joule"
+      },
+      {
+        "pregunta": "¿Qué tipo de energía se obtiene de la descomposición de materiales radiactivos?",
+        "respuestas": ["Energía eólica", "Energía nuclear", "Energía hidráulica", "Energía geotérmica"],
+        "respuesta_correcta": "Energía nuclear"
+      },
+      {
+        "pregunta": "¿Cuál es la fuerza que se opone al movimiento de un objeto a través de un fluido, como el aire o el agua?",
+        "respuestas": ["Fuerza gravitatoria", "Fuerza de fricción", "Fuerza centrífuga", "Fuerza electromagnética"],
+        "respuesta_correcta": "Fuerza de fricción"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la velocidad en el sistema internacional?",
+        "respuestas": ["Kilogramo por metro", "Metros por segundo", "Segundos por metro", "Kilómetros por hora"],
+        "respuesta_correcta": "Metros por segundo"
+      },
+      {
+        "pregunta": "¿Qué es un átomo?",
+        "respuestas": ["Una partícula subatómica con carga negativa", "La unidad básica de la materia", "Una partícula subatómica con carga positiva", "Una partícula subatómica sin carga"],
+        "respuesta_correcta": "La unidad básica de la materia"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula para calcular la velocidad de un objeto?",
+        "respuestas": ["V = d/t", "F = ma", "E = mc^2", "P = F/A"],
+        "respuesta_correcta": "V = d/t"
+      },
+      {
+        "pregunta": "¿Cuál es la ley de la tercera ley de Kepler?",
+        "respuestas": ["Los planetas se mueven en órbitas elípticas con el Sol en uno de los focos", "La velocidad de un planeta es constante a lo largo de su órbita", "La fuerza gravitatoria es inversamente proporcional al cuadrado de la distancia entre dos objetos", "La relación entre el periodo orbital de un planeta y su distancia al Sol es constante"],
+        "respuesta_correcta": "La relación entre el periodo orbital de un planeta y su distancia al Sol es constante"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula de la ley de Coulomb?",
+        "respuestas": ["F = ma", "V = I x R", "F = k * (q1 * q2) / r^2", "P = F/A"],
+        "respuesta_correcta": "F = k * (q1 * q2) / r^2"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la resistencia eléctrica?",
+        "respuestas": ["Amperio", "Voltio", "Ohmio", "Watt"],
+        "respuesta_correcta": "Ohmio"
+      },
+      {
+        "pregunta": "¿Cuál es la parte del átomo con carga neutra?",
+        "respuestas": ["Electrón", "Neutrón", "Protón", "Átomo"],
+        "respuesta_correcta": "Neutrón"
+      },
+      {
+        "pregunta": "¿Qué tipo de energía se obtiene del viento?",
+        "respuestas": ["Energía geotérmica", "Energía solar", "Energía eólica", "Energía hidráulica"],
+        "respuesta_correcta": "Energía eólica"
+      },
+      {
+        "pregunta": "¿Cuál es la ley de la reflexión de la luz?",
+        "respuestas": ["Ley de Snell", "Ley de Hooke", "Ley de Faraday", "Ley de la reflexión"],
+        "respuesta_correcta": "Ley de la reflexión"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula para calcular la densidad de un objeto?",
+        "respuestas": ["Densidad = Volumen x Masa", "Densidad = Masa x Aceleración", "Densidad = Fuerza / Área", "Densidad = Potencia / Tiempo"],
+        "respuesta_correcta": "Densidad = Masa x Volumen"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula de la ley de Ohm?",
+        "respuestas": ["V = I x R", "F = ma", "E = mc^2", "P = F/A"],
+        "respuesta_correcta": "V = I x R"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la temperatura en el sistema internacional?",
+        "respuestas": ["Grado Celsius", "Kelvin", "Fahrenheit", "Rankine"],
+        "respuesta_correcta": "Kelvin"
+      },
+      {
+        "pregunta": "¿Cuál es la fuerza que mantiene a la Luna en órbita alrededor de la Tierra?",
+        "respuestas": ["Gravedad", "Fuerza centrífuga", "Fuerza electromagnética", "Fuerza nuclear débil"],
+        "respuesta_correcta": "Gravedad"
+      },
+      {
+        "pregunta": "¿Qué es la inercia?",
+        "respuestas": ["La tendencia de los objetos a permanecer en reposo", "La tendencia de los objetos a acelerar constantemente", "La tendencia de los objetos a cambiar de forma", "La tendencia de los objetos a mantener su estado de movimiento"],
+        "respuesta_correcta": "La tendencia de los objetos a mantener su estado de movimiento"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la energía en el sistema internacional?",
+        "respuestas": ["Vatio", "Joule", "Watt", "Hertz"],
+        "respuesta_correcta": "Joule"
+      }
+    ]
+}

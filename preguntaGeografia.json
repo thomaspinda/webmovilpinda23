@@ -1,0 +1,264 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la capital de Francia?",
+      "respuestas": ["París", "Londres", "Madrid", "Berlín"],
+      "respuesta_correcta": "París"
+    },
+    {
+      "pregunta": "¿Cuántos continentes hay en el mundo?",
+      "respuestas": ["4", "6", "7", "5"],
+      "respuesta_correcta": "7"
+    },
+    {
+      "pregunta": "¿A qué país pertenece la isla de Java?",
+      "respuestas": ["Taiwán", "India", "Chile", "Indonesia"],
+      "respuesta_correcta": "Indonesia"
+    },
+    {
+      "pregunta": "¿A qué país pertenecen las Islas Malvinas?",
+      "respuestas": ["Argentina", "Inglaterra", "Uruguay", "Bolivia"],
+      "respuesta_correcta": "Inglaterra"
+    },
+    {
+      "pregunta": "¿Cuántas regiones tiene Chile?",
+      "respuestas": ["16", "15", "13", "11"],
+      "respuesta_correcta": "16"
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo del mundo?",
+      "respuestas": ["Amazonas", "Nilo", "Misisipi", "Yangtsé"],
+      "respuesta_correcta": "Amazonas"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra Egipto?",
+      "respuestas": ["África", "Asia", "Europa", "Oceanía"],
+      "respuesta_correcta": "África"
+    },
+    {
+      "pregunta": "¿Cuál es el punto más alto de la Tierra?",
+      "respuestas": ["Monte Everest", "K2", "Monte Kilimanjaro", "Monte McKinley"],
+      "respuesta_correcta": "Monte Everest"
+    },
+    {
+      "pregunta": "¿Cuál es el país más grande del mundo en términos de superficie?",
+      "respuestas": ["Rusia", "Canadá", "Estados Unidos", "China"],
+      "respuesta_correcta": "Rusia"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra la Gran Muralla China?",
+      "respuestas": ["Asia", "Europa", "África", "Oceanía"],
+      "respuesta_correcta": "Asia"
+    },
+    {
+      "pregunta": "¿Cuál es la capital de Australia?",
+      "respuestas": ["Sídney", "Melbourne", "Canberra", "Brisbane"],
+      "respuesta_correcta": "Canberra"
+    },
+    {
+      "pregunta": "¿Cuál es el país más poblado del mundo?",
+      "respuestas": ["India", "Estados Unidos", "China", "Brasil"],
+      "respuesta_correcta": "China"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la Torre Eiffel?",
+      "respuestas": ["Alemania", "Reino Unido", "Francia", "Italia"],
+      "respuesta_correcta": "Francia"
+    },
+    {
+      "pregunta": "¿Cuál es el océano más grande del mundo?",
+      "respuestas": ["Océano Atlántico", "Océano Pacífico", "Océano Índico", "Océano Ártico"],
+      "respuesta_correcta": "Océano Pacífico"
+    },
+    {
+      "pregunta": "¿Cuál es el país conocido como la Tierra de Fuego?",
+      "respuestas": ["Argentina", "Chile", "Canadá", "Noruega"],
+      "respuesta_correcta": "Argentina"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra el desierto del Sahara?",
+      "respuestas": ["Marruecos", "Egipto", "Sudán", "Argelia"],
+      "respuesta_correcta": "Argelia"
+    },
+    {
+      "pregunta": "¿Cuál es el país más pequeño del mundo en términos de superficie?",
+      "respuestas": ["Vaticano", "Mónaco", "Nauru", "San Marino"],
+      "respuesta_correcta": "Vaticano"
+    },
+    {
+      "pregunta": "¿Cuál es el lago más grande de África?",
+      "respuestas": ["Lago Victoria", "Lago Tanganica", "Lago Malawi", "Lago Chad"],
+      "respuesta_correcta": "Lago Victoria"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la ciudad de Cusco?",
+      "respuestas": ["Perú", "México", "Bolivia", "Ecuador"],
+      "respuesta_correcta": "Perú"
+    },
+    {
+      "pregunta": "¿Cuál es la montaña más alta de América del Norte?",
+      "respuestas": ["Monte Denali", "Monte Logan", "Monte San Elías", "Monte Rainier"],
+      "respuesta_correcta": "Monte Denali"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra la isla de Madagascar?",
+      "respuestas": ["Asia", "África", "Oceanía", "Europa"],
+      "respuesta_correcta": "África"
+    },
+    {
+      "pregunta": "¿Cuál es el país más grande de América del Sur?",
+      "respuestas": ["Brasil", "Argentina", "Perú", "Colombia"],
+      "respuesta_correcta": "Brasil"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra el desierto de Kalahari?",
+      "respuestas": ["África", "Asia", "Oceanía", "América del Norte"],
+      "respuesta_correcta": "África"
+    },
+    {
+      "pregunta": "¿Cuál es el país conocido como la Tierra del Sol Naciente?",
+      "respuestas": ["Corea del Sur", "Japón", "China", "Tailandia"],
+      "respuesta_correcta": "Japón"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra el Canal de Panamá?",
+      "respuestas": ["Colombia", "Costa Rica", "Nicaragua", "Panamá"],
+      "respuesta_correcta": "Panamá"
+    },
+    {
+      "pregunta": "¿Cuál es el país más poblado de Europa?",
+      "respuestas": ["Francia", "Alemania", "Italia", "Rusia"],
+      "respuesta_correcta": "Rusia"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la Gran Barrera de Coral?",
+      "respuestas": ["Indonesia", "Filipinas", "Australia", "Malasia"],
+      "respuesta_correcta": "Australia"
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo de América del Sur?",
+      "respuestas": ["Río Paraná", "Río Amazonas", "Río Orinoco", "Río Magdalena"],
+      "respuesta_correcta": "Río Amazonas"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra la isla de Tasmania?",
+      "respuestas": ["África", "Oceanía", "Asia", "Europa"],
+      "respuesta_correcta": "Oceanía"
+    },
+    {
+      "pregunta": "¿Cuál es el país conocido como la Tierra de los Faraones?",
+      "respuestas": ["Grecia", "Egipto", "México", "Turquía"],
+      "respuesta_correcta": "Egipto"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra el lago Baikal?",
+      "respuestas": ["Rusia", "Canadá", "Estados Unidos", "China"],
+      "respuesta_correcta": "Rusia"
+    },
+    {
+      "pregunta": "¿Cuál es la capital de Canadá?",
+      "respuestas": ["Montreal", "Ottawa", "Toronto", "Vancouver"],
+      "respuesta_correcta": "Ottawa"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra el Monte Kilimanjaro?",
+      "respuestas": ["Asia", "Europa", "África", "Oceanía"],
+      "respuesta_correcta": "África"
+    },
+    {
+      "pregunta": "¿Cuál es el país más grande de América Central?",
+      "respuestas": ["México", "Guatemala", "El Salvador", "Honduras"],
+      "respuesta_correcta": "México"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra el desierto de Atacama?",
+      "respuestas": ["Chile", "Argentina", "Bolivia", "Perú"],
+      "respuesta_correcta": "Chile"
+    },
+    {
+      "pregunta": "¿Cuál es el país conocido como la Tierra del Canguro?",
+      "respuestas": ["Nueva Zelanda", "Australia", "Sudáfrica", "Argentina"],
+      "respuesta_correcta": "Australia"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la ciudad de Atenas?",
+      "respuestas": ["Italia", "Grecia", "España", "Turquía"],
+      "respuesta_correcta": "Grecia"
+    },
+    {
+      "pregunta": "¿Cuál es el lago más grande de América del Norte?",
+      "respuestas": ["Lago Superior", "Lago Míchigan", "Lago Hurón", "Lago Erie"],
+      "respuesta_correcta": "Lago Superior"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra la isla de Sri Lanka?",
+      "respuestas": ["África", "Asia", "Oceanía", "Europa"],
+      "respuesta_correcta": "Asia"
+    },
+    {
+      "pregunta": "¿Cuál es el país más pequeño de América del Sur?",
+      "respuestas": ["Uruguay", "Surinam", "Guyana", "Ecuador"],
+      "respuesta_correcta": "Surinam"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra el Mar Muerto?",
+      "respuestas": ["Israel", "Egipto", "Jordania", "Líbano"],
+      "respuesta_correcta": "Israel"
+    },
+    {
+      "pregunta": "¿Cuál es el país conocido como la Tierra de los Fjordos?",
+      "respuestas": ["Noruega", "Suecia", "Dinamarca", "Finlandia"],
+      "respuesta_correcta": "Noruega"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la ciudad de Río de Janeiro?",
+      "respuestas": ["Argentina", "Chile", "Brasil", "Uruguay"],
+      "respuesta_correcta": "Brasil"
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo de Europa?",
+      "respuestas": ["Río Volga", "Río Danubio", "Río Rin", "Río Támesis"],
+      "respuesta_correcta": "Río Volga"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra la isla de Borneo?",
+      "respuestas": ["Asia", "África", "Oceanía", "Europa"],
+      "respuesta_correcta": "Asia"
+    },
+    {
+      "pregunta": "¿Cuál es el país más grande de Oceanía?",
+      "respuestas": ["Indonesia", "Australia", "Nueva Zelanda", "Fiyi"],
+      "respuesta_correcta": "Australia"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra el Gran Cañón del Colorado?",
+      "respuestas": ["México", "Canadá", "Estados Unidos", "Guatemala"],
+      "respuesta_correcta": "Estados Unidos"
+    },
+    {
+      "pregunta": "¿Cuál es la capital de Sudáfrica?",
+      "respuestas": ["Ciudad del Cabo", "Durban", "Pretoria", "Johannesburgo"],
+      "respuesta_correcta": "Pretoria"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra la isla de Java?",
+      "respuestas": ["Asia", "África", "Oceanía", "Europa"],
+      "respuesta_correcta": "Asia"
+    },
+    {
+      "pregunta": "¿Cuál es el país conocido como la Tierra de los Mil Lagos?",
+      "respuestas": ["Canadá", "Suecia", "Finlandia", "Noruega"],
+      "respuesta_correcta": "Finlandia"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la ciudad de Buenos Aires?",
+      "respuestas": ["Argentina", "Chile", "Brasil", "Uruguay"],
+      "respuesta_correcta": "Argentina"
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo de África?",
+      "respuestas": ["Río Nilo", "Río Congo", "Río Níger", "Río Zambeze"],
+      "respuesta_correcta": "Río Nilo"
+    }
+  ]
+}

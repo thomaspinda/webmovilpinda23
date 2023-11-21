@@ -1,0 +1,189 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la película que ganó el Premio de la Academia a la Mejor Película en 1994?",
+      "respuestas": ["Forrest Gump", "Pulp Fiction", "Titanic", "El Rey León"],
+      "respuesta_correcta": "Forrest Gump"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Jack Dawson en la película 'Titanic'?",
+      "respuestas": ["Leonardo DiCaprio", "Brad Pitt", "Tom Hanks", "Johnny Depp"],
+      "respuesta_correcta": "Leonardo DiCaprio"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción dirigida por Christopher Nolan que trata sobre los viajes en el tiempo?",
+      "respuestas": ["Origen", "La llegada", "Interstellar", "Memento"],
+      "respuesta_correcta": "Origen"
+    },
+    {
+      "pregunta": "¿En qué película de Quentin Tarantino aparece el personaje Jules Winnfield, interpretado por Samuel L. Jackson?",
+      "respuestas": ["Pulp Fiction", "Kill Bill", "Django sin cadenas", "Los odiosos ocho"],
+      "respuesta_correcta": "Pulp Fiction"
+    },
+    {
+      "pregunta": "¿Qué actor interpreta a Tony Stark en las películas de Iron Man y el Universo Cinematográfico de Marvel?",
+      "respuestas": ["Chris Evans", "Chris Hemsworth", "Robert Downey Jr.", "Mark Ruffalo"],
+      "respuesta_correcta": "Robert Downey Jr."
+    },
+    {
+      "pregunta": "¿Cuál es la película animada de Pixar en la que un niño se encuentra con un monstruo en su armario?",
+      "respuestas": ["Toy Story", "Los Increíbles", "Monsters, Inc.", "Buscando a Nemo"],
+      "respuesta_correcta": "Monsters, Inc."
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción que presenta a Neo, un hacker que se convierte en el Elegido?",
+      "respuestas": ["Matrix", "Blade Runner", "Inception", "Minority Report"],
+      "respuesta_correcta": "Matrix"
+    },
+    {
+      "pregunta": "¿En qué película se cuenta la historia de un naufragio en el que un joven se encuentra en un bote salvavidas con un tigre de Bengala?",
+      "respuestas": ["Náufrago", "La vida de Pi", "La playa", "127 horas"],
+      "respuesta_correcta": "La vida de Pi"
+    },
+    {
+      "pregunta": "¿Cuál es la película de Disney que presenta a Simba como el personaje principal y su búsqueda para reclamar su lugar como rey de la Sabana?",
+      "respuestas": ["La sirenita", "El Rey León", "Aladdín", "Pocahontas"],
+      "respuesta_correcta": "El Rey León"
+    },
+    {
+      "pregunta": "¿Quién interpretó a James Bond en la película 'Casino Royale' de 2006?",
+      "respuestas": ["Sean Connery", "Pierce Brosnan", "Roger Moore", "Daniel Craig"],
+      "respuesta_correcta": "Daniel Craig"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción en la que un científico crea dinosaurios en un parque temático?",
+      "respuestas": ["Jurassic Park", "Parque Jurásico", "El mundo perdido", "Jurassic World"],
+      "respuesta_correcta": "Jurassic Park"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Hermione Granger en las películas de Harry Potter?",
+      "respuestas": ["Emma Watson", "Emma Stone", "Emma Roberts", "Emma Thompson"],
+      "respuesta_correcta": "Emma Watson"
+    },
+    {
+      "pregunta": "¿Cuál es la película de Quentin Tarantino que se desarrolla en la década de 1850 y sigue la historia de un esclavo liberado en busca de venganza?",
+      "respuestas": ["Django sin cadenas", "Kill Bill", "Pulp Fiction", "Reservoir Dogs"],
+      "respuesta_correcta": "Django sin cadenas"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción en la que un hombre se despierta en un mundo donde nadie recuerda a los Beatles excepto él?",
+      "respuestas": ["Yesterday", "Across the Universe", "Let It Be", "All You Need Is Love"],
+      "respuesta_correcta": "Yesterday"
+    },
+    {
+      "pregunta": "¿En qué película un personaje llamado Tyler Durden forma un club secreto y se involucra en actividades subversivas?",
+      "respuestas": ["El club de la lucha", "Siete", "Inception", "American Psycho"],
+      "respuesta_correcta": "El club de la lucha"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción dirigida por Steven Spielberg en la que un niño se encuentra con un extraterrestre llamado E.T.?",
+      "respuestas": ["Encuentros cercanos del tercer tipo", "E.T. el Extraterrestre", "La guerra de los mundos", "La terminal"],
+      "respuesta_correcta": "E.T. el Extraterrestre"
+    },
+    {
+      "pregunta": "¿En qué película de ciencia ficción un hombre se despierta en una cápsula espacial y no recuerda quién es ni por qué está allí?",
+      "respuestas": ["Passengers", "Gravity", "Interstellar", "The Martian"],
+      "respuesta_correcta": "Passengers"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta la historia de un joven mago llamado Harry Potter y su lucha contra el mago oscuro Lord Voldemort?",
+      "respuestas": ["Harry Potter y la piedra filosofal", "Harry Potter y el prisionero de Azkaban", "Harry Potter y el cáliz de fuego", "Harry Potter y las reliquias de la muerte"],
+      "respuesta_correcta": "Harry Potter y la piedra filosofal"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Neo en la película 'Matrix'?",
+      "respuestas": ["Keanu Reeves", "Laurence Fishburne", "Hugo Weaving", "Carrie-Anne Moss"],
+      "respuesta_correcta": "Keanu Reeves"
+    },
+    {
+      "pregunta": "¿Cuál es la película que cuenta la historia de una joven llamada Dorothy que es llevada por un tornado a un mundo mágico llamado Oz?",
+      "respuestas": ["El mago de Oz", "Alicia en el país de las maravillas", "Peter Pan", "La bella y la bestia"],
+      "respuesta_correcta": "El mago de Oz"
+    },
+    {
+      "pregunta": "¿En qué película un joven llamado Marty McFly viaja en el tiempo en un DeLorean modificado?",
+      "respuestas": ["Volver al futuro", "Donnie Darko", "12 monos", "Looper"],
+      "respuesta_correcta": "Volver al futuro"
+    },
+    {
+      "pregunta": "¿Cuál es la película que narra la historia de un grupo de atracadores disfrazados de máscaras de presidente de los Estados Unidos?",
+      "respuestas": ["Heat", "La chaqueta metálica", "La máscara del Zorro", "La casa de papel"],
+      "respuesta_correcta": "La chaqueta metálica"
+    },
+    {
+      "pregunta": "¿En qué película una inteligencia artificial llamada HAL 9000 se vuelve contra la tripulación de una nave espacial?",
+      "respuestas": ["Star Wars", "Blade Runner", "2001: Una odisea del espacio", "Ex Machina"],
+      "respuesta_correcta": "2001: Una odisea del espacio"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción en la que un exorcista es llamado para expulsar a un demonio de una niña?",
+      "respuestas": ["El exorcista", "El sexto sentido", "Carrie", "Posesión infernal"],
+      "respuesta_correcta": "El exorcista"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Edward Scissorhands en la película del mismo nombre?",
+      "respuestas": ["Johnny Depp", "Keanu Reeves", "Leonardo DiCaprio", "Brad Pitt"],
+      "respuesta_correcta": "Johnny Depp"
+    },
+    {
+      "pregunta": "¿Cuál es la película en la que Tom Hanks interpreta a un hombre atrapado en una isla desierta con un balón de voleibol llamado Wilson?",
+      "respuestas": ["Náufrago", "127 horas", "El gran escape", "La playa"],
+      "respuesta_correcta": "Náufrago"
+    },
+    {
+      "pregunta": "¿En qué película un hombre llamado Andy Dufresne escapa de una prisión de alta seguridad?",
+      "respuestas": ["La milla verde", "Sueño de fuga", "Papillon", "Los violentos de Kelly"],
+      "respuesta_correcta": "Sueño de fuga"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción en la que un adolescente viaja en el tiempo en un DeLorean modificado por un científico loco?",
+      "respuestas": ["Donnie Darko", "12 monos", "Volver al futuro", "Looper"],
+      "respuesta_correcta": "Volver al futuro"
+    },
+    {
+      "pregunta": "¿En qué película un hombre llamado John McClane se enfrenta a terroristas en un rascacielos de Los Ángeles?",
+      "respuestas": ["El día de la independencia", "Juego de patriotas", "Duro de matar", "El fugitivo"],
+      "respuesta_correcta": "Duro de matar"
+    },
+    {
+      "pregunta": "¿Cuál es la película que cuenta la historia de un extraterrestre que queda varado en la Tierra y busca regresar a su hogar?",
+      "respuestas": ["E.T. el Extraterrestre", "Alien", "Encuentros cercanos del tercer tipo", "Depredador"],
+      "respuesta_correcta": "E.T. el Extraterrestre"
+    },
+    {
+      "pregunta": "¿Cuál es la película que narra la historia de un barbero judío que se convierte en el doble de Adolf Hitler?",
+      "respuestas": ["La vida es bella", "El gran dictador", "Inglourious Basterds", "El hundimiento"],
+      "respuesta_correcta": "El gran dictador"
+    },
+    {
+      "pregunta": "¿En qué película un hombre llamado Luke Skywalker se convierte en un Jedi y se enfrenta al Imperio Galáctico?",
+      "respuestas": ["Star Trek", "La guerra de las galaxias", "Guardians of the Galaxy", "El quinto elemento"],
+      "respuesta_correcta": "La guerra de las galaxias"
+    },
+    {
+      "pregunta": "¿Cuál es la película que narra la historia de una joven llamada Matilda con poderes telequinéticos?",
+      "respuestas": ["Los Vengadores", "Thor", "Daredevil", "Matilda"],
+      "respuesta_correcta": "Matilda"
+    },
+    {
+      "pregunta": "¿En qué película un hombre llamado John Wick se convierte en un asesino a sueldo para vengar la muerte de su perro?",
+      "respuestas": ["El profesional", "Sin piedad", "El sicario", "John Wick"],
+      "respuesta_correcta": "John Wick"
+    },
+    {
+      "pregunta": "¿Cuál es la película en la que un grupo de delincuentes planea un robo en la Casa de la Moneda de España?",
+      "respuestas": ["Ocean's Eleven", "El atraco perfecto", "Money Heist", "Inside Man"],
+      "respuesta_correcta": "Money Heist"
+    },
+    {
+      "pregunta": "¿En qué película un joven llamado Marty McFly viaja al Viejo Oeste en un DeLorean modificado?",
+      "respuestas": ["Volver al futuro Parte III", "Tombstone", "The Quick and the Dead", "Unforgiven"],
+      "respuesta_correcta": "Volver al futuro Parte III"
+    },
+    {
+      "pregunta": "¿Cuál es la película que narra la historia de una joven llamada Katniss Everdeen en un mundo postapocalíptico?",
+      "respuestas": ["Maze Runner", "El corredor del laberinto", "Divergente", "Los juegos del hambre"],
+      "respuesta_correcta": "Los juegos del hambre"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "respuestas": ["Thomas Jefferson", "George Washington", "Benjamin Franklin", "John Adams"],
+        "respuesta_correcta": "George Washington"
+      },
+      {
+        "pregunta": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "respuestas": ["1939", "1917", "1914", "1921"],
+        "respuesta_correcta": "1914"
+      },
+      {
+        "pregunta": "¿Qué evento histórico ocurrió el 12 de octubre de 1492?",
+        "respuestas": [ "Caída del Muro de Berlín", "Independencia de México", "Revolución Rusa","Descubrimiento de América"],
+        "respuesta_correcta": "Descubrimiento de América"
+      },
+      {
+        "pregunta": "¿Quién escribió la 'Odisea' y la 'Ilíada'?",
+        "respuestas": ["Platón", "Sócrates", "Homero", "Aristóteles"],
+        "respuesta_correcta": "Homero"
+      },
+      {
+        "pregunta": "¿Cuál fue la capital del Imperio Romano?",
+        "respuestas": ["Atenas", "Roma", "Cartago", "Alejandría"],
+        "respuesta_correcta": "Roma"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Rusa en 1917?",
+        "respuestas": ["Vladimir Lenin", "Mikhail Gorbachev", "Joseph Stalin", "Nikita Khrushchev"],
+        "respuesta_correcta": "Vladimir Lenin"
+      },
+      {
+        "pregunta": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "respuestas": ["1776", "1789", "1792", "1769"],
+        "respuesta_correcta": "1776"
+      },
+      {
+        "pregunta": "¿Quién fue el emperador romano conocido por su código legal?",
+        "respuestas": ["Julio César", "Marco Aurelio", "Constantino el Grande", "Justiniano"],
+        "respuesta_correcta": "Justiniano"
+      },
+      {
+        "pregunta": "¿En qué año se produjo la Revolución Francesa?",
+        "respuestas": ["1789", "1799", "1804", "1776"],
+        "respuesta_correcta": "1789"
+      },
+      {
+        "pregunta": "¿Cuál es la ciudad antigua conocida como la 'Ciudad Eterna'?",
+        "respuestas": ["Atenas", "Roma", "Jerusalén", "Babilonia"],
+        "respuesta_correcta": "Roma"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Cubana?",
+        "respuestas": ["Fidel Castro", "Che Guevara", "Batista", "Camilo Cienfuegos"],
+        "respuesta_correcta": "Fidel Castro"
+      },
+      {
+        "pregunta": "¿En qué año se firmó el Tratado de Versalles que puso fin a la Primera Guerra Mundial?",
+        "respuestas": ["1918", "1919", "1920", "1921"],
+        "respuesta_correcta": "1919"
+      },
+      {
+        "pregunta": "¿Cuál es la capital de China?",
+        "respuestas": ["Shanghái", "Pekín", "Hong Kong", "Cantón"],
+        "respuesta_correcta": "Pekín"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Mexicana?",
+        "respuestas": ["Emiliano Zapata", "Francisco Madero", "Pancho Villa", "Porfirio Díaz"],
+        "respuesta_correcta": "Francisco Madero"
+      },
+      {
+        "pregunta": "¿Cuál fue el nombre del barco en el que Cristóbal Colón llegó a América?",
+        "respuestas": ["La Pinta", "La Niña", "La Santa María", "La Victoria"],
+        "respuesta_correcta": "La Santa María"
+      },
+      {
+        "pregunta": "¿Quién fue el primer presidente de Sudáfrica después del apartheid?",
+        "respuestas": ["Nelson Mandela", "F.W. de Klerk", "Thabo Mbeki", "Desmond Tutu"],
+        "respuesta_correcta": "Nelson Mandela"
+      },
+      {
+        "pregunta": "¿En qué año se produjo la Revolución Industrial?",
+        "respuestas": ["1750", "1800", "1850", "1900"],
+        "respuesta_correcta": "1750"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Bolchevique en Rusia?",
+        "respuestas": ["León Trotsky", "Josef Stalin", "Vladimir Lenin", "Nicolás II"],
+        "respuesta_correcta": "Vladimir Lenin"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del tratado que puso fin a la Segunda Guerra Mundial?",
+        "respuestas": ["Tratado de París", "Tratado de Versalles", "Tratado de Tordesillas", "Tratado de Potsdam"],
+        "respuesta_correcta": "Tratado de Potsdam"
+      },
+      {
+        "pregunta": "¿Quién escribió 'El origen de las especies'?",
+        "respuestas": ["Isaac Newton", "Charles Darwin", "Galileo Galilei", "Albert Einstein"],
+        "respuesta_correcta": "Charles Darwin"
+      },
+      {
+        "pregunta": "¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?",
+        "respuestas": ["1945", "1950", "1940", "1955"],
+        "respuesta_correcta": "1945"
+      },
+      {
+        "pregunta": "¿Qué imperio fue gobernado por Atila el Huno?",
+        "respuestas": ["Imperio Romano", "Imperio Persa", "Imperio Mongol", "Imperio Huno"],
+        "respuesta_correcta": "Imperio Huno"
+      },
+      {
+        "pregunta": "¿En qué país se libró la Batalla de Stalingrado durante la Segunda Guerra Mundial?",
+        "respuestas": ["Alemania", "Rusia", "Estados Unidos", "Reino Unido"],
+        "respuesta_correcta": "Rusia"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución China y fundador de la República Popular China?",
+        "respuestas": ["Sun Yat-sen", "Chiang Kai-shek", "Mao Zedong", "Deng Xiaoping"],
+        "respuesta_correcta": "Mao Zedong"
+      },
+      {
+        "pregunta": "¿En qué año se firmó la Declaración de Derechos Humanos de las Naciones Unidas?",
+        "respuestas": ["1945", "1950", "1948", "1955"],
+        "respuesta_correcta": "1948"
+      },
+      {
+        "pregunta": "¿Cuál fue el nombre del sistema de segregación racial en Sudáfrica?",
+        "respuestas": ["Apartheid", "Jim Crow", "Segregación racial", "Racismo institucional"],
+        "respuesta_correcta": "Apartheid"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Rusa en 1917?",
+        "respuestas": ["Vladimir Lenin", "Mikhail Gorbachev", "Joseph Stalin", "Nikita Khrushchev"],
+        "respuesta_correcta": "Vladimir Lenin"
+      },
+      {
+        "pregunta": "¿En qué año se firmó el Tratado de Tordesillas?",
+        "respuestas": ["1492", "1512", "1484", "1500"],
+        "respuesta_correcta": "1492"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Cubana?",
+        "respuestas": ["Fidel Castro", "Che Guevara", "Batista", "Camilo Cienfuegos"],
+        "respuesta_correcta": "Fidel Castro"
+      },
+      {
+        "pregunta": "¿En qué año se produjo la Revolución Francesa?",
+        "respuestas": ["1789", "1799", "1804", "1776"],
+        "respuesta_correcta": "1789"
+      },
+      {
+        "pregunta": "¿Cuál es la capital de China?",
+        "respuestas": ["Shanghái", "Pekín", "Hong Kong", "Cantón"],
+        "respuesta_correcta": "Pekín"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Mexicana?",
+        "respuestas": ["Emiliano Zapata", "Francisco Madero", "Pancho Villa", "Porfirio Díaz"],
+        "respuesta_correcta": "Francisco Madero"
+      },
+      {
+        "pregunta": "¿Cuál fue el nombre del barco en el que Cristóbal Colón llegó a América?",
+        "respuestas": ["La Pinta", "La Niña", "La Santa María", "La Victoria"],
+        "respuesta_correcta": "La Santa María"
+      },
+      {
+        "pregunta": "¿Quién fue el primer presidente de Sudáfrica después del apartheid?",
+        "respuestas": ["Nelson Mandela", "F.W. de Klerk", "Thabo Mbeki", "Desmond Tutu"],
+        "respuesta_correcta": "Nelson Mandela"
+      },
+      {
+        "pregunta": "¿En qué año se produjo la Revolución Industrial?",
+        "respuestas": ["1750", "1800", "1850", "1900"],
+        "respuesta_correcta": "1750"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Bolchevique en Rusia?",
+        "respuestas": ["León Trotsky", "Josef Stalin", "Vladimir Lenin", "Nicolás II"],
+        "respuesta_correcta": "Vladimir Lenin"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del tratado que puso fin a la Segunda Guerra Mundial?",
+        "respuestas": ["Tratado de París", "Tratado de Versalles", "Tratado de Tordesillas", "Tratado de Potsdam"],
+        "respuesta_correcta": "Tratado de Potsdam"
+      },
+      {
+        "pregunta": "¿Quién escribió 'El origen de las especies'?",
+        "respuestas": ["Isaac Newton", "Charles Darwin", "Galileo Galilei", "Albert Einstein"],
+        "respuesta_correcta": "Charles Darwin"
+      },
+      {
+        "pregunta": "¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?",
+        "respuestas": ["1945", "1950", "1940", "1955"],
+        "respuesta_correcta": "1945"
+      },
+      {
+        "pregunta": "¿Qué imperio fue gobernado por Atila el Huno?",
+        "respuestas": ["Imperio Romano", "Imperio Persa", "Imperio Mongol", "Imperio Huno"],
+        "respuesta_correcta": "Imperio Huno"
+      },
+      {
+        "pregunta": "¿En qué país se libró la Batalla de Stalingrado durante la Segunda Guerra Mundial?",
+        "respuestas": ["Alemania", "Rusia", "Estados Unidos", "Reino Unido"],
+        "respuesta_correcta": "Rusia"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución China y fundador de la República Popular China?",
+        "respuestas": ["Sun Yat-sen", "Chiang Kai-shek", "Mao Zedong", "Deng Xiaoping"],
+        "respuesta_correcta": "Mao Zedong"
+      },
+      {
+        "pregunta": "¿En qué año se firmó la Declaración de Derechos Humanos de las Naciones Unidas?",
+        "respuestas": ["1945", "1950", "1948", "1955"],
+        "respuesta_correcta": "1948"
+      },
+      {
+        "pregunta": "¿Cuál fue el nombre del sistema de segregación racial en Sudáfrica?",
+        "respuestas": ["Apartheid", "Jim Crow", "Segregación racial", "Racismo institucional"],
+        "respuesta_correcta": "Apartheid"
+      }
+    ]
+  }
+  
