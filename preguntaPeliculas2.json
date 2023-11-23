@@ -1,0 +1,139 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Quién dirigió la película '2001: Una odisea del espacio'?",
+      "respuestas": ["Stanley Kubrick", "Martin Scorsese", "Francis Ford Coppola", "Alfred Hitchcock"],
+      "respuesta_correcta": "Stanley Kubrick"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un personaje llamado Tyler Durden?",
+      "respuestas": ["El Club de la Pelea", "Memento", "American Psycho", "Se7en"],
+      "respuesta_correcta": "El Club de la Pelea"
+    },
+    {
+      "pregunta": "¿En qué año se estrenó la película 'Blade Runner'?",
+      "respuestas": ["1982", "1979", "1985", "1990"],
+      "respuesta_correcta": "1982"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Vito Corleone en 'El Padrino'?",
+      "respuestas": ["Al Pacino", "Robert De Niro", "Marlon Brando", "Joe Pesci"],
+      "respuesta_correcta": "Marlon Brando"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un personaje llamado Hannibal Lecter?",
+      "respuestas": ["El Silencio de los Corderos", "Seven", "El Resplandor", "Psicosis"],
+      "respuesta_correcta": "El Silencio de los Corderos"
+    },
+    {
+      "pregunta": "¿En qué película un hombre se ve atrapado en un bucle temporal reviviendo el mismo día una y otra vez?",
+      "respuestas": ["Atrapado en el Tiempo", "Groundhog Day", "Primer", "Source Code"],
+      "respuesta_correcta": "Groundhog Day"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un grupo de criminales que planea un robo en Los Ángeles?",
+      "respuestas": ["Heat", "Reservoir Dogs", "The Town", "Ocean's Eleven"],
+      "respuesta_correcta": "Heat"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'El Resplandor' basada en la novela de Stephen King?",
+      "respuestas": ["Stanley Kubrick", "Alfred Hitchcock", "Tim Burton", "David Lynch"],
+      "respuesta_correcta": "Stanley Kubrick"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un personaje llamado Anton Chigurh?",
+      "respuestas": ["No es país para viejos", "Django Unchained", "The Revenant", "Sicario"],
+      "respuesta_correcta": "No es país para viejos"
+    },
+    {
+      "pregunta": "¿En qué película un astronauta queda varado en Marte y lucha por sobrevivir?",
+      "respuestas": ["Gravity", "Interstellar", "The Martian", "Apollo 13"],
+      "respuesta_correcta": "The Martian"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'Apocalypse Now'?",
+      "respuestas": ["Steven Spielberg", "Quentin Tarantino", "Francis Ford Coppola", "Oliver Stone"],
+      "respuesta_correcta": "Francis Ford Coppola"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un grupo de ilusionistas que realizan robos durante sus actuaciones?",
+      "respuestas": ["Now You See Me", "The Prestige", "The Illusionist", "The Great Gatsby"],
+      "respuesta_correcta": "Now You See Me"
+    },
+    {
+      "pregunta": "¿En qué película un hacker llamado Neo descubre la verdad sobre la realidad?",
+      "respuestas": ["The Matrix", "Inception", "Blade Runner", "Ghost in the Shell"],
+      "respuesta_correcta": "The Matrix"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'La Naranja Mecánica'?",
+      "respuestas": ["Stanley Kubrick", "David Fincher", "Christopher Nolan", "Quentin Tarantino"],
+      "respuesta_correcta": "Stanley Kubrick"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un hombre con amnesia tratando de descubrir la verdad sobre su identidad?",
+      "respuestas": ["The Bourne Identity", "Eternal Sunshine of the Spotless Mind", "Memento", "Shutter Island"],
+      "respuesta_correcta": "Memento"
+    },
+    {
+      "pregunta": "¿En qué película un exconvicto busca venganza contra quienes lo traicionaron?",
+      "respuestas": ["The Shawshank Redemption", "Oldboy", "Law Abiding Citizen", "American History X"],
+      "respuesta_correcta": "The Shawshank Redemption"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'Taxi Driver'?",
+      "respuestas": ["Martin Scorsese", "Quentin Tarantino", "Francis Ford Coppola", "Steven Spielberg"],
+      "respuesta_correcta": "Martin Scorsese"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un equipo de criminales que roba un casino en Las Vegas?",
+      "respuestas": ["Ocean's Eleven", "The Italian Job", "Heat", "Reservoir Dogs"],
+      "respuesta_correcta": "Ocean's Eleven"
+    },
+    {
+      "pregunta": "¿En qué película un grupo de personas desconocidas se despierta atrapado en una casa llena de trampas mortales?",
+      "respuestas": ["Se7en", "Saw", "The Silence of the Lambs", "The Conjuring"],
+      "respuesta_correcta": "Saw"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Jake LaMotta en la película 'Raging Bull'?",
+      "respuestas": ["Al Pacino", "Robert De Niro", "Joe Pesci", "Jack Nicholson"],
+      "respuesta_correcta": "Robert De Niro"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un grupo de adolescentes enfrentándose a un asesino enmascarado?",
+      "respuestas": ["Scream", "Halloween", "Friday the 13th", "A Nightmare on Elm Street"],
+      "respuesta_correcta": "Scream"
+    },
+    {
+      "pregunta": "¿En qué película un hombre lucha por su vida al quedar atrapado en un juego de escape mortal?",
+      "respuestas": ["The Game", "Escape Room", "Saw", "The Cabin in the Woods"],
+      "respuesta_correcta": "Saw"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'The Godfather: Part II'?",
+      "respuestas": ["Martin Scorsese", "Francis Ford Coppola", "Steven Spielberg", "Quentin Tarantino"],
+      "respuesta_correcta": "Francis Ford Coppola"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un asesino en serie que sigue los siete pecados capitales?",
+      "respuestas": ["Se7en", "Silence of the Lambs", "Zodiac", "Mystic River"],
+      "respuesta_correcta": "Se7en"
+    },
+    {
+      "pregunta": "¿En qué película un exconvicto se infiltra en una prisión para desmantelar una red de corrupción?",
+      "respuestas": ["The Departed", "Escape Plan", "Lock Up", "American History X"],
+      "respuesta_correcta": "The Departed"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'Pulp Fiction'?",
+      "respuestas": ["Quentin Tarantino", "Martin Scorsese", "David Fincher", "Christopher Nolan"],
+      "respuesta_correcta": "Quentin Tarantino"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un grupo de criminales que realizan robos utilizando disfraces de expresidentes?",
+      "respuestas": ["Point Break", "Heat", "The Town", "Inside Man"],
+      "respuesta_correcta": "Point Break"
+    }
+  ]
+}

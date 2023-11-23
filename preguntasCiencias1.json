@@ -1,0 +1,144 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el símbolo químico del oxígeno?",
+        "respuestas": ["O", "O2", "O3", "OH"],
+        "respuesta_correcta": "O"
+      },
+      {
+        "pregunta": "¿Cuántos planetas hay en nuestro sistema solar?",
+        "respuestas": ["8", "9", "7", "10"],
+        "respuesta_correcta": "8"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad básica de la vida?",
+        "respuestas": ["Célula", "Átomo", "Molécula", "Tejido"],
+        "respuesta_correcta": "Célula"
+      },
+      {
+        "pregunta": "¿Qué gas es esencial para la fotosíntesis?",
+        "respuestas": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"],
+        "respuesta_correcta": "Dióxido de carbono"
+      },
+      {
+        "pregunta": "¿Cuál es la fórmula química del agua?",
+        "respuestas": ["H2O", "CO2", "O2", "N2"],
+        "respuesta_correcta": "H2O"
+      },
+      {
+        "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+        "respuestas": ["Fémur", "Húmero", "Tibia", "Radio"],
+        "respuesta_correcta": "Fémur"
+      },
+      {
+        "pregunta": "¿Qué fenómeno natural mide la escala Richter?",
+        "respuestas": ["Terremotos", "Tornados", "Inundaciones", "Huracanes"],
+        "respuesta_correcta": "Terremotos"
+      },
+      {
+        "pregunta": "¿Cuál es la capa más externa de la Tierra?",
+        "respuestas": ["Corteza", "Manto", "Núcleo externo", "Núcleo interno"],
+        "respuesta_correcta": "Corteza"
+      },
+      {
+        "pregunta": "¿Cuál es la fuerza que mantiene a los planetas en órbita alrededor del Sol?",
+        "respuestas": ["Gravedad", "Electromagnetismo", "Fuerza nuclear débil", "Fuerza nuclear fuerte"],
+        "respuesta_correcta": "Gravedad"
+      },
+      {
+        "pregunta": "¿Qué gas es responsable del color azul del cielo?",
+        "respuestas": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Ozono"],
+        "respuesta_correcta": "Nitrógeno"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso mediante el cual las plantas producen su propio alimento?",
+        "respuestas": ["Fotosíntesis", "Respiración", "Digestión", "Transpiración"],
+        "respuesta_correcta": "Fotosíntesis"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad básica de la herencia genética?",
+        "respuestas": ["Gen", "Cromosoma", "Alelo", "ADN"],
+        "respuesta_correcta": "Gen"
+      },
+      {
+        "pregunta": "¿Cuál es el metal más abundante en la corteza terrestre?",
+        "respuestas": ["Aluminio", "Hierro", "Cobre", "Oro"],
+        "respuesta_correcta": "Aluminio"
+      },
+      {
+        "pregunta": "¿Cuál es la principal función de los pulmones?",
+        "respuestas": ["Respiración", "Digestión", "Circulación", "Excreción"],
+        "respuesta_correcta": "Respiración"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso de conversión de la leche en productos lácteos como el queso y el yogur?",
+        "respuestas": ["Fermentación láctica", "Fermentación alcohólica", "Respiración celular", "Fotosíntesis"],
+        "respuesta_correcta": "Fermentación láctica"
+      },
+      {
+        "pregunta": "¿Cuál es el planeta más grande de nuestro sistema solar?",
+        "respuestas": ["Júpiter", "Saturno", "Neptuno", "Urano"],
+        "respuesta_correcta": "Júpiter"
+      },
+      {
+        "pregunta": "¿Cuál es el hueso más pequeño del cuerpo humano?",
+        "respuestas": ["Estribo", "Fémur", "Tibia", "Radio"],
+        "respuesta_correcta": "Estribo"
+      },
+      {
+        "pregunta": "¿Qué gas es esencial para la respiración de los seres humanos?",
+        "respuestas": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Hidrógeno"],
+        "respuesta_correcta": "Oxígeno"
+      },
+      {
+        "pregunta": "¿Cuál es el componente principal del sistema nervioso central?",
+        "respuestas": ["Cerebro", "Médula espinal", "Nervios periféricos", "Ganglios"],
+        "respuesta_correcta": "Cerebro"
+      },
+      {
+        "pregunta": "¿Cuál es la fuerza que mantiene unidos los electrones a un átomo?",
+        "respuestas": ["Fuerza electromagnética", "Fuerza nuclear débil", "Fuerza nuclear fuerte", "Gravedad"],
+        "respuesta_correcta": "Fuerza electromagnética"
+      },
+      {
+        "pregunta": "¿Cuál es el órgano más grande del cuerpo humano?",
+        "respuestas": ["Piel", "Hígado", "Corazón", "Pulmón"],
+        "respuesta_correcta": "Piel"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la corriente eléctrica?",
+        "respuestas": ["Amperio", "Voltio", "Vatio", "Ohmio"],
+        "respuesta_correcta": "Amperio"
+      },
+      {
+        "pregunta": "¿Cuál es la velocidad de la luz en el vacío?",
+        "respuestas": ["299,792,458 metros por segundo", "150,000,000 metros por segundo", "200,000,000 metros por segundo", "250,000,000 metros por segundo"],
+        "respuesta_correcta": "299,792,458 metros por segundo"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual el agua se convierte en vapor?",
+        "respuestas": ["Evaporación", "Condensación", "Solidificación", "Sublimación"],
+        "respuesta_correcta": "Evaporación"
+      },
+      {
+        "pregunta": "¿Cuál es la ley de la física que describe la acción y reacción entre dos cuerpos?",
+        "respuestas": ["Tercera ley de Newton", "Primera ley de Newton", "Segunda ley de Newton", "Ley de la gravitación universal"],
+        "respuesta_correcta": "Tercera ley de Newton"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la temperatura?",
+        "respuestas": ["Celsius", "Fahrenheit", "Kelvin", "Rankine"],
+        "respuesta_correcta": "Celsius"
+      },
+      {
+        "pregunta": "¿Cuál es el órgano responsable de la producción de insulina en el cuerpo humano?",
+        "respuestas": ["Páncreas", "Hígado", "Riñón", "Estómago"],
+        "respuesta_correcta": "Páncreas"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual las plantas convierten la luz en energía química?",
+        "respuestas": ["Fotosíntesis", "Respiración", "Transpiración", "Digestión"],
+        "respuesta_correcta": "Fotosíntesis"
+      }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "respuestas": ["1914", "1939", "1870", "1945"],
+        "respuesta_correcta": "1914"
+      },
+      {
+        "pregunta": "¿Quién fue el primer presidente de Estados Unidos?",
+        "respuestas": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+        "respuesta_correcta": "George Washington"
+      },
+      {
+        "pregunta": "¿En qué año se firmó la Declaración de Independencia de Estados Unidos?",
+        "respuestas": ["1776", "1789", "1801", "1793"],
+        "respuesta_correcta": "1776"
+      },
+      {
+        "pregunta": "¿Cuál fue la civilización que construyó las pirámides de Giza?",
+        "respuestas": ["Romana", "Griega", "Egipcia", "Mesopotámica"],
+        "respuesta_correcta": "Egipcia"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Rusa en 1917?",
+        "respuestas": ["Vladimir Lenin", "Joseph Stalin", "Leon Trotsky", "Nikita Khrushchev"],
+        "respuesta_correcta": "Vladimir Lenin"
+      },
+      {
+        "pregunta": "¿En qué año llegaron Cristóbal Colón y sus tripulantes a América?",
+        "respuestas": ["1492", "1500", "1456", "1511"],
+        "respuesta_correcta": "1492"
+      },
+      {
+        "pregunta": "¿Cuál fue el primer imperio conocido de la historia?",
+        "respuestas": ["Imperio Romano", "Imperio Persa", "Imperio Asirio", "Imperio Egipcio"],
+        "respuesta_correcta": "Imperio Sumerio"
+      },
+      {
+        "pregunta": "¿En qué año se fundó la ciudad de Roma?",
+        "respuestas": ["753 a.C.", "500 a.C.", "200 a.C.", "100 d.C."],
+        "respuesta_correcta": "753 a.C."
+      },
+      {
+        "pregunta": "¿Quién fue el líder militar y político que dirigió la Revolución Cubana en 1959?",
+        "respuestas": ["Che Guevara", "Fidel Castro", "Camilo Cienfuegos", "Raul Castro"],
+        "respuesta_correcta": "Fidel Castro"
+      },
+      {
+        "pregunta": "¿Cuál fue la batalla que puso fin a las Guerras Napoleónicas?",
+        "respuestas": ["Batalla de Waterloo", "Batalla de Leipzig", "Batalla de Austerlitz", "Batalla de Borodino"],
+        "respuesta_correcta": "Batalla de Waterloo"
+      },
+      {
+        "pregunta": "¿Qué evento histórico marcó el inicio de la Edad Moderna?",
+        "respuestas": ["Caída del Imperio Romano", "Revolución Industrial", "Descubrimiento de América", "Revolución Francesa"],
+        "respuesta_correcta": "Descubrimiento de América"
+      },
+      {
+        "pregunta": "¿Cuál fue el período conocido como la Edad de Oro de Atenas?",
+        "respuestas": ["Edad Media", "Renacimiento", "Edad de Oro", "Siglo de Pericles"],
+        "respuesta_correcta": "Siglo de Pericles"
+      }
+    ]
+  }
+  

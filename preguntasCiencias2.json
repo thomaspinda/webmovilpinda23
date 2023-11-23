@@ -1,0 +1,139 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el principio fundamental de la teoría de la relatividad de Einstein?",
+        "respuestas": ["Principio de la equivalencia", "Principio de la conservación de la energía", "Principio de la acción y reacción", "Principio de la incertidumbre"],
+        "respuesta_correcta": "Principio de la equivalencia"
+      },
+      {
+        "pregunta": "¿Cuál es la función principal de los ribosomas en una célula?",
+        "respuestas": ["Síntesis de proteínas", "Producción de energía", "Almacenamiento de nutrientes", "Digestión de desechos"],
+        "respuesta_correcta": "Síntesis de proteínas"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del proceso por el cual las células se dividen para formar nuevas células?",
+        "respuestas": ["Mitosis", "Meiosis", "Fotosíntesis", "Apoptosis"],
+        "respuesta_correcta": "Mitosis"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del bosón responsable de dar masa a otras partículas subatómicas?",
+        "respuestas": ["Bosón de Higgs", "Bosón W", "Bosón Z", "Bosón pion"],
+        "respuesta_correcta": "Bosón de Higgs"
+      },
+      {
+        "pregunta": "¿En qué unidad se mide la actividad radioactiva?",
+        "respuestas": ["Becquerel", "Curie", "Gray", "Sievert"],
+        "respuesta_correcta": "Becquerel"
+      },
+      {
+        "pregunta": "¿Qué fenómeno describe la teoría de la selección natural de Darwin?",
+        "respuestas": ["Evolución de las especies", "Revolución planetaria", "Desplazamiento de los continentes", "Cambio climático"],
+        "respuesta_correcta": "Evolución de las especies"
+      },
+      {
+        "pregunta": "¿Cuál es la ley de la termodinámica que establece que la energía no puede ser creada ni destruida, solo transformada?",
+        "respuestas": ["Primera ley de la termodinámica", "Segunda ley de la termodinámica", "Tercera ley de la termodinámica", "Ley de conservación de la energía"],
+        "respuesta_correcta": "Primera ley de la termodinámica"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad básica de la información genética en el ADN?",
+        "respuestas": ["Gen", "Alelo", "Cromosoma", "Nucleótido"],
+        "respuesta_correcta": "Nucleótido"
+      },
+      {
+        "pregunta": "¿Cuál es la principal función de la enzima amilasa?",
+        "respuestas": ["Descomponer almidones", "Descomponer proteínas", "Descomponer grasas", "Descomponer nucleótidos"],
+        "respuesta_correcta": "Descomponer almidones"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad básica de la materia según la teoría atómica?",
+        "respuestas": ["Átomo", "Molécula", "Elemento", "Partícula subatómica"],
+        "respuesta_correcta": "Átomo"
+      },
+      {
+        "pregunta": "¿En qué parte de la célula ocurre la respiración celular?",
+        "respuestas": ["Mitocondria", "Núcleo", "Ribosoma", "Retículo endoplasmático"],
+        "respuesta_correcta": "Mitocondria"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la presión en el Sistema Internacional de Unidades (SI)?",
+        "respuestas": ["Pascal", "Atmósfera", "Bar", "Newton"],
+        "respuesta_correcta": "Pascal"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del proceso por el cual las plantas convierten la luz en energía química?",
+        "respuestas": ["Fotosíntesis", "Respiración celular", "Transpiración", "Fermentación"],
+        "respuesta_correcta": "Fotosíntesis"
+      },
+      {
+        "pregunta": "¿Qué parte del espectro electromagnético tiene longitudes de onda más cortas?",
+        "respuestas": ["Rayos gamma", "Rayos X", "Ultravioleta", "Infrarrojo"],
+        "respuesta_correcta": "Rayos gamma"
+      },
+      {
+        "pregunta": "¿Cuál es la teoría que describe la expansión del universo a partir de un estado inicial extremadamente denso y caliente?",
+        "respuestas": ["Big Bang", "Teoría del estado estacionario", "Teoría del universo oscilante", "Teoría del multiverso"],
+        "respuesta_correcta": "Big Bang"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del proceso por el cual los organismos convierten la glucosa en energía sin usar oxígeno?",
+        "respuestas": ["Fermentación", "Respiración celular", "Oxidación", "Glicólisis"],
+        "respuesta_correcta": "Fermentación"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre de la partícula subatómica que tiene una carga eléctrica positiva?",
+        "respuestas": ["Protón", "Electrón", "Neutrón", "Positrón"],
+        "respuesta_correcta": "Protón"
+      },
+      {
+        "pregunta": "¿Cuál es la ley de la física que establece que la fuerza ejercida sobre un objeto es igual a la masa del objeto por su aceleración?",
+        "respuestas": ["Segunda ley de Newton", "Primera ley de Newton", "Tercera ley de Newton", "Ley de la gravitación universal"],
+        "respuesta_correcta": "Segunda ley de Newton"
+      },
+      {
+        "pregunta": "¿En qué parte del cuerpo humano se produce la insulina?",
+        "respuestas": ["Páncreas", "Hígado", "Riñón", "Estómago"],
+        "respuesta_correcta": "Páncreas"
+      },
+      {
+        "pregunta": "¿Cuál es el componente principal del sistema nervioso central?",
+        "respuestas": ["Cerebro", "Médula espinal", "Nervios periféricos", "Ganglios"],
+        "respuesta_correcta": "Cerebro"
+      },
+      {
+        "pregunta": "¿Cuál es la teoría que explica la dualidad partícula-onda de la luz?",
+        "respuestas": ["Teoría cuántica", "Teoría de la relatividad", "Teoría electromagnética", "Teoría corpuscular"],
+        "respuesta_correcta": "Teoría cuántica"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la resistencia eléctrica?",
+        "respuestas": ["Ohmio", "Voltio", "Amperio", "Watt"],
+        "respuesta_correcta": "Ohmio"
+      },
+      {
+        "pregunta": "¿Qué tipo de reacción nuclear es responsable de la energía liberada en el sol?",
+        "respuestas": ["Fusión nuclear", "Fisión nuclear", "Desintegración alfa", "Captura de neutrones"],
+        "respuesta_correcta": "Fusión nuclear"
+      },
+      {
+        "pregunta": "¿Cuál es la molécula responsable del transporte de oxígeno en la sangre?",
+        "respuestas": ["Hemoglobina", "Insulina", "Adrenalina", "Glucosa"],
+        "respuesta_correcta": "Hemoglobina"
+      },
+      {
+        "pregunta": "¿Cuál es la teoría que describe la estructura y función de la célula?",
+        "respuestas": ["Teoría celular", "Teoría evolutiva", "Teoría cuántica", "Teoría electromagnética"],
+        "respuesta_correcta": "Teoría celular"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual un átomo gana electrones?",
+        "respuestas": ["Reducción", "Oxidación", "Ionización", "Fisión"],
+        "respuesta_correcta": "Reducción"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad de medida de la cantidad de sustancia en el Sistema Internacional de Unidades (SI)?",
+        "respuestas": ["Mol", "Litro", "Kilogramo", "Metro cúbico"],
+        "respuesta_correcta": "Mol"
+      }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la capital de Francia?",
+      "respuestas": ["Londres", "Madrid", "París", "Berlín"],
+      "respuesta_correcta": "París"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra Brasil?",
+      "respuestas": ["África", "América", "Asia", "Europa"],
+      "respuesta_correcta": "América"
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo del mundo?",
+      "respuestas": ["Amazonas", "Yangtsé", "Misisipi", "Nilo"],
+      "respuesta_correcta": "Amazonas"
+    },
+    {
+      "pregunta": "¿Cuál es la montaña más alta del mundo?",
+      "respuestas": ["K2", "Annapurna", "Monte Everest", "Monte Kilimanjaro"],
+      "respuesta_correcta": "Monte Everest"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la Gran Barrera de Coral?",
+      "respuestas": ["Brasil", "India", "Australia", "México"],
+      "respuesta_correcta": "Australia"
+    },
+    {
+      "pregunta": "¿Cuál es la capital de Japón?",
+      "respuestas": ["Seúl", "Bangkok", "Pekín", "Tokio"],
+      "respuesta_correcta": "Tokio"
+    },    {
+      "pregunta": "¿Cuál es la capital de Italia?",
+      "respuestas": ["Madrid", "París", "Roma", "Atenas"],
+      "respuesta_correcta": "Roma"
+    },
+    {
+      "pregunta": "¿En qué océano se encuentra la isla de Madagascar?",
+      "respuestas": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Océano Ártico"],
+      "respuesta_correcta": "Océano Índico"
+    },
+    {
+      "pregunta": "¿Cuál es el país más grande del mundo en términos de superficie?",
+      "respuestas": ["China", "Estados Unidos", "Canadá", "Rusia"],
+      "respuesta_correcta": "Rusia"
+    },
+    {
+      "pregunta": "¿En qué continente se encuentra Egipto?",
+      "respuestas": ["Asia", "África", "Europa", "Oceanía"],
+      "respuesta_correcta": "África"
+    },
+    {
+      "pregunta": "¿Cuál es el canal que conecta el océano Atlántico con el océano Pacífico?",
+      "respuestas": ["Canal de Suez", "Canal de Panamá", "Canal de la Mancha", "Canal de Mozambique"],
+      "respuesta_correcta": "Canal de Panamá"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la ciudad de Budapest?",
+      "respuestas": ["Austria", "Hungría", "Polonia", "Rumanía"],
+      "respuesta_correcta": "Hungría"
+    }
+  ]
+}

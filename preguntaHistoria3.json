@@ -1,0 +1,64 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál fue el tratado que puso fin a la Guerra de los Treinta Años en 1648?",
+        "respuestas": ["Tratado de Utrecht", "Tratado de Westfalia", "Tratado de Versalles", "Tratado de Trianón"],
+        "respuesta_correcta": "Tratado de Westfalia"
+      },
+      {
+        "pregunta": "¿En qué año se estableció el Imperio Otomano?",
+        "respuestas": ["1299", "1453", "1517", "1600"],
+        "respuesta_correcta": "1299"
+      },
+      {
+        "pregunta": "¿Cuál fue el resultado de la Revolución Mexicana de 1910-1920?",
+        "respuestas": ["Establecimiento de un gobierno monárquico", "Consolidación del sistema feudal", "Creación de una república democrática", "Ascenso al poder de Porfirio Díaz"],
+        "respuesta_correcta": "Creación de una república democrática"
+      },
+      {
+        "pregunta": "¿Quién fue el líder militar y político de la independencia de Ghana?",
+        "respuestas": ["Nelson Mandela", "Jomo Kenyatta", "Kwame Nkrumah", "Haile Selassie"],
+        "respuesta_correcta": "Kwame Nkrumah"
+      },
+      {
+        "pregunta": "¿En qué año se firmó el Tratado de Brest-Litovsk entre Rusia y Alemania?",
+        "respuestas": ["1918", "1919", "1921", "1923"],
+        "respuesta_correcta": "1918"
+      },
+      {
+        "pregunta": "¿Cuál fue la principal causa de la Revolución Industrial en Inglaterra?",
+        "respuestas": ["Descubrimiento de recursos naturales", "Desarrollo de la agricultura", "Crecimiento demográfico", "Innovaciones tecnológicas"],
+        "respuesta_correcta": "Innovaciones tecnológicas"
+      }, {
+        "pregunta": "¿Quién fue el fundador del Imperio Persa?",
+        "respuestas": ["Dario I", "Ciro II", "Jerjes I", "Artajerjes I"],
+        "respuesta_correcta": "Ciro II"
+      },
+      {
+        "pregunta": "¿Cuál fue el primer conflicto militar en el que se usaron tanques de guerra?",
+        "respuestas": ["Primera Guerra Mundial", "Guerra Civil Española", "Segunda Guerra Mundial", "Guerra Fría"],
+        "respuesta_correcta": "Primera Guerra Mundial"
+      },
+      {
+        "pregunta": "¿En qué año se promulgó la Declaración de Derechos en Inglaterra?",
+        "respuestas": ["1689", "1756", "1620", "1789"],
+        "respuesta_correcta": "1689"
+      },
+      {
+        "pregunta": "¿Quién fue el líder militar cartaginense durante las Guerras Púnicas?",
+        "respuestas": ["Aníbal", "Escipión el Africano", "Amílcar Barca", "Asdrúbal"],
+        "respuesta_correcta": "Aníbal"
+      },
+      {
+        "pregunta": "¿En qué año se promulgó la Constitución de los Estados Unidos?",
+        "respuestas": ["1787", "1776", "1791", "1800"],
+        "respuesta_correcta": "1787"
+      },
+      {
+        "pregunta": "¿Qué evento histórico marcó el comienzo de la Segunda Guerra Mundial en Europa?",
+        "respuestas": ["Invasión de Polonia", "Batalla de Francia", "Invasión de los Países Bajos", "Anschluss de Austria"],
+        "respuesta_correcta": "Invasión de Polonia"
+      }
+    ]
+  }
+  

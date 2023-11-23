@@ -1,0 +1,104 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿En qué película un ratón chef cocina en París?",
+      "respuestas": ["Ratatouille", "Ratatón", "Cocina Ratón", "Chef Roedor"],
+      "respuesta_correcta": "Ratatouille"
+    },
+    {
+      "pregunta": "¿Quién interpreta a Iron Man en las películas del Universo Cinematográfico de Marvel?",
+      "respuestas": ["Chris Evans", "Chris Hemsworth", "Robert Downey Jr.", "Mark Ruffalo"],
+      "respuesta_correcta": "Robert Downey Jr."
+    },
+    {
+      "pregunta": "¿Cuál es la película animada sobre un pez payaso que busca a su hijo?",
+      "respuestas": ["Buscando a Nemo", "Encontrando a Dory", "Bajo el Mar", "Aventuras Acuáticas"],
+      "respuesta_correcta": "Buscando a Nemo"
+    },
+    {
+      "pregunta": "¿En qué película un joven mago asiste a la escuela de Hogwarts?",
+      "respuestas": ["El Señor de los Anillos", "Harry Potter y la Piedra Filosofal", "El Hobbit", "El Príncipe Mestizo"],
+      "respuesta_correcta": "Harry Potter y la Piedra Filosofal"
+    },
+    {
+      "pregunta": "¿Cuál es la película de Disney sobre una sirenita que sueña con vivir en la tierra?",
+      "respuestas": ["Mulan", "Blancanieves", "La Bella y la Bestia", "La Sirenita"],
+      "respuesta_correcta": "La Sirenita"
+    },
+    {
+      "pregunta": "¿Quién es el protagonista de la trilogía de 'El Señor de los Anillos'?",
+      "respuestas": ["Aragorn", "Frodo Bolsón", "Gandalf", "Legolas"],
+      "respuesta_correcta": "Frodo Bolsón"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un robot llamado Wall-E?",
+      "respuestas": ["Toy Story", "Finding Nemo", "Wall-E", "Cars"],
+      "respuesta_correcta": "Wall-E"
+    },
+    {
+      "pregunta": "¿En qué película un león joven es el heredero del trono en la sabana africana?",
+      "respuestas": ["El Rey León", "Madagascar", "El Príncipe León", "Simba"],
+      "respuesta_correcta": "El Rey León"
+    },
+    {
+      "pregunta": "¿Quién es el protagonista de 'Forrest Gump'?",
+      "respuestas": ["Tom Hanks", "Brad Pitt", "Leonardo DiCaprio", "Johnny Depp"],
+      "respuesta_correcta": "Tom Hanks"
+    },
+    {
+      "pregunta": "¿Cuál es la película que sigue las aventuras de un niño mago en el tren expreso Hogwarts?",
+      "respuestas": ["Harry Potter y el Prisionero de Azkaban", "Harry Potter y el Cáliz de Fuego", "Harry Potter y la Orden del Fénix", "Harry Potter y la Piedra Filosofal"],
+      "respuesta_correcta": "Harry Potter y la Piedra Filosofal"
+    },
+    {
+      "pregunta": "¿Cuál es la película de Pixar sobre juguetes que cobran vida cuando los humanos no están presentes?",
+      "respuestas": ["Monsters, Inc.", "Toy Story", "Up", "Buscando a Nemo"],
+      "respuesta_correcta": "Toy Story"
+    },
+    {
+      "pregunta": "¿En qué película un hombre es encerrado durante años en la prisión de Shawshank?",
+      "respuestas": ["Pulp Fiction", "El Padrino", "El Gran Hotel Budapest", "Sueño de Fuga"],
+      "respuesta_correcta": "Sueño de Fuga"
+    },
+    {
+      "pregunta": "¿Quién interpreta a Jack en la película 'Titanic'?",
+      "respuestas": ["Leonardo DiCaprio", "Tom Cruise", "Johnny Depp", "Brad Pitt"],
+      "respuesta_correcta": "Leonardo DiCaprio"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un hombre araña que lucha contra el crimen en Nueva York?",
+      "respuestas": ["Iron Man", "Spider-Man: Un Nuevo Universo", "Batman Begins", "Spider-Man: Homecoming"],
+      "respuesta_correcta": "Spider-Man: Homecoming"
+    },
+    {
+      "pregunta": "¿En qué película un joven mago debe competir en el Torneo de los Tres Magos?",
+      "respuestas": ["Harry Potter y el Prisionero de Azkaban", "Harry Potter y la Orden del Fénix", "Harry Potter y el Cáliz de Fuego", "Harry Potter y las Reliquias de la Muerte"],
+      "respuesta_correcta": "Harry Potter y el Cáliz de Fuego"
+    },
+    {
+      "pregunta": "¿Cuál es la película que presenta a un superhéroe vestido de negro y con telarañas?",
+      "respuestas": ["Iron Man", "Batman", "Spider-Man", "Superman"],
+      "respuesta_correcta": "Spider-Man"
+    },
+    {
+      "pregunta": "¿Quién es el director de la trilogía de 'El Padrino'?",
+      "respuestas": ["Steven Spielberg", "Christopher Nolan", "Martin Scorsese", "Francis Ford Coppola"],
+      "respuesta_correcta": "Francis Ford Coppola"
+    },
+    {
+      "pregunta": "¿Cuál es la película de Disney sobre una princesa con una rana como compañero?",
+      "respuestas": ["La Sirenita", "Blancanieves", "La Princesa y el Sapo", "Cenicienta"],
+      "respuesta_correcta": "La Princesa y el Sapo"
+    },
+    {
+      "pregunta": "¿En qué película un grupo de juguetes intenta salvar a su dueño de un juguete malvado?",
+      "respuestas": ["Toy Story 2", "Toy Story 3", "Toy Story 4", "Toy Story"],
+      "respuesta_correcta": "Toy Story 3"
+    },
+    {
+      "pregunta": "¿Quién interpreta a Batman en 'The Dark Knight'?",
+      "respuestas": ["Christian Bale", "Michael Keaton", "George Clooney", "Ben Affleck"],
+      "respuesta_correcta": "Christian Bale"
+    }
+  ]
+}

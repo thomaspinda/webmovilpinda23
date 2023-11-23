@@ -1,0 +1,101 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la derivada de e^x con respecto a x?",
+      "respuestas": ["e^x", "2e^x", "x^2", "cos(x)"],
+      "respuesta_correcta": "e^x"
+    },
+    {
+      "pregunta": "Si f(x) = 3x^2 + 2x + 1, ¿cuál es la integral definida de f(x) desde 0 hasta 1?",
+      "respuestas": ["1", "4", "7", "10"],
+      "respuesta_correcta": "4"
+    },
+    {
+      "pregunta": "¿Cuál es el límite de (sin(x))/x cuando x tiende a 0?",
+      "respuestas": ["0", "1", "π", "∞"],
+      "respuesta_correcta": "1"
+    },
+    {
+      "pregunta": "Si A es una matriz cuadrada, ¿cuál es la definición de la traza de A?",
+      "respuestas": ["La suma de los elementos de la diagonal principal", "El determinante de A", "La inversa de A", "La transpuesta de A"],
+      "respuesta_correcta": "La suma de los elementos de la diagonal principal"
+    },
+    {
+      "pregunta": "¿Cuánto es el logaritmo base 2 de 8?",
+      "respuestas": ["2", "3", "4", "5"],
+      "respuesta_correcta": "3"
+    },
+    {
+      "pregunta": "Si A y B son matrices cuadradas, ¿cuál es la propiedad conmutativa que NO siempre se cumple?",
+      "respuestas": ["AB = BA", "A + B = B + A", "A(B + C) = AB + AC", "k(AB) = (kA)B"],
+      "respuesta_correcta": "AB = BA"
+    },
+    {
+      "pregunta": "¿Cuál es la solución de la ecuación diferencial dy/dx = 2x?",
+      "respuestas": ["x^2 + C", "x^2 + 2", "e^x + C", "sin(x) + C"],
+      "respuesta_correcta": "x^2 + C"
+    },
+    {
+      "pregunta": "Si a y b son números complejos, ¿cuál es la forma estándar de la multiplicación (a + bi)(c + di)?",
+      "respuestas": ["(ac - bd) + (ad + bc)i", "(ac + bd) + (ad - bc)i", "(a + c) + (b + d)i", "(a - c) + (b - d)i"],
+      "respuesta_correcta": "(ac - bd) + (ad + bc)i"
+    },
+    {
+      "pregunta": "¿Cuál es la ecuación de una esfera en el espacio tridimensional?",
+      "respuestas": ["x^2 + y^2 + z^2 = r^2", "x + y + z = r", "xy + xz + yz = r^2", "x^3 + y^3 + z^3 = r^3"],
+      "respuesta_correcta": "x^2 + y^2 + z^2 = r^2"
+    },
+    {
+      "pregunta": "¿Cuál es el teorema fundamental del cálculo?",
+      "respuestas": ["d/dx ∫f(x)dx = f(x)", "∫f(x)dx = F(x) + C", "lim(x->∞)f(x) = 0", "d/dx(f(x) + g(x)) = df/dx + dg/dx"],
+      "respuesta_correcta": "∫f(x)dx = F(x) + C"
+    },
+    {
+      "pregunta": "Si A es una matriz invertible, ¿cuál es la propiedad que siempre se cumple?",
+      "respuestas": ["A^-1A = AA^-1 = I", "A + A^-1 = I", "A^-1 + A = I", "A^2 = A^-2"],
+      "respuesta_correcta": "A^-1A = AA^-1 = I"
+    },
+    {
+      "pregunta": "¿Cuál es la probabilidad de obtener un número impar al lanzar un dado justo de seis caras?",
+      "respuestas": ["1/6", "1/3", "1/2", "2/3"],
+      "respuesta_correcta": "1/2"
+    },
+    {
+      "pregunta": "¿Cuántos lados tiene un icosaedro?",
+      "respuestas": ["10", "12", "20", "24"],
+      "respuesta_correcta": "20"
+    },
+    {
+      "pregunta": "Si f(x) = ln(x), ¿cuál es la derivada de f(x)?",
+      "respuestas": ["1/x", "x", "e^x", "cos(x)"],
+      "respuesta_correcta": "1/x"
+    },
+    {
+      "pregunta": "¿Cuánto es el seno de 60 grados?",
+      "respuestas": ["1/2", "√2/2", "√3/2", "1"],
+      "respuesta_correcta": "√3/2"
+    },
+    {
+      "pregunta": "Si A es una matriz simétrica, ¿cuál es la propiedad que siempre se cumple?",
+      "respuestas": ["A = A^T", "det(A) = 0", "A^2 = I", "A^-1 = A"],
+      "respuesta_correcta": "A = A^T"
+    },
+    {
+      "pregunta": "¿Cuánto es el logaritmo natural de e?",
+      "respuestas": ["0", "1", "e", "π"],
+      "respuesta_correcta": "1"
+    },
+    {
+      "pregunta": "Si f(x) = cos(x), ¿cuál es la integral definida de f(x) desde 0 hasta π?",
+      "respuestas": ["0", "1", "2", "π"],
+      "respuesta_correcta": "2"
+    },
+    {
+      "pregunta": "¿Cuál es la solución de la ecuación diferencial dy/dx = y, con y(0) = 2?",
+      "respuestas": ["e^x", "2e^x", "e^(2x)", "2e^(2x)"],
+      "respuesta_correcta": "2e^x"
+    }
+  ]
+}
+
+  

@@ -1,0 +1,139 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 1994?",
+      "respuestas": ["Titanic", "El Silencio de los Corderos", "Forrest Gump", "Schindler's List"],
+      "respuesta_correcta": "Schindler's List"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'La La Land'?",
+      "respuestas": ["Quentin Tarantino", "Christopher Nolan", "Damien Chazelle", "Greta Gerwig"],
+      "respuesta_correcta": "Damien Chazelle"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el primer Oscar a la Mejor Película de Habla No Inglesa para México?",
+      "respuestas": ["Birdman", "Amores Perros", "Roma", "Y Tu Mamá También"],
+      "respuesta_correcta": "Amores Perros"
+    },
+    {
+      "pregunta": "¿En qué película Daniel Day-Lewis interpretó a un presidente de los Estados Unidos?",
+      "respuestas": ["Lincoln", "There Will Be Blood", "Gangs of New York", "My Left Foot"],
+      "respuesta_correcta": "Lincoln"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película Animada en 2001?",
+      "respuestas": ["Toy Story 3", "Shrek", "Spirited Away", "Finding Nemo"],
+      "respuesta_correcta": "Shrek"
+    },
+    {
+      "pregunta": "¿Quién fue el director de fotografía de la película 'Blade Runner'?",
+      "respuestas": ["Roger Deakins", "Emmanuel Lubezki", "Janusz Kamiński", "Hoyte van Hoytema"],
+      "respuesta_correcta": "Hoyte van Hoytema"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 2016?",
+      "respuestas": ["La La Land", "Moonlight", "Manchester by the Sea", "Arrival"],
+      "respuesta_correcta": "Moonlight"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Margaret Thatcher en la película 'The Iron Lady'?",
+      "respuestas": ["Cate Blanchett", "Meryl Streep", "Judi Dench", "Helen Mirren"],
+      "respuesta_correcta": "Meryl Streep"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 1972?",
+      "respuestas": ["The Godfather", "The French Connection", "A Clockwork Orange", "The Sting"],
+      "respuesta_correcta": "The Godfather"
+    },
+    {
+      "pregunta": "¿En qué película Natalie Portman ganó el Oscar a la Mejor Actriz?",
+      "respuestas": ["Black Swan", "V for Vendetta", "Jackie", "The Other Boleyn Girl"],
+      "respuesta_correcta": "Black Swan"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película Extranjera en 2018?",
+      "respuestas": ["Roma", "The Favourite", "Cold War", "Shoplifters"],
+      "respuesta_correcta": "Roma"
+    },
+    {
+      "pregunta": "¿Quién fue el director de fotografía de la película 'Dunkirk'?",
+      "respuestas": ["Hoyte van Hoytema", "Roger Deakins", "Emmanuel Lubezki", "Janusz Kamiński"],
+      "respuesta_correcta": "Hoyte van Hoytema"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 1989?",
+      "respuestas": ["Rain Man", "Driving Miss Daisy", "Dead Poets Society", "Born on the Fourth of July"],
+      "respuesta_correcta": "Driving Miss Daisy"
+    },
+    {
+      "pregunta": "¿En qué película Morgan Freeman interpreta a Nelson Mandela?",
+      "respuestas": ["Invictus", "The Shawshank Redemption", "Million Dollar Baby", "Seven"],
+      "respuesta_correcta": "Invictus"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película Animada en 2019?",
+      "respuestas": ["Toy Story 4", "Frozen II", "Coco", "Spider-Man: Into the Spider-Verse"],
+      "respuesta_correcta": "Spider-Man: Into the Spider-Verse"
+    },
+    {
+      "pregunta": "¿Quién dirigió la película 'The Social Network'?",
+      "respuestas": ["David Fincher", "Aaron Sorkin", "Mark Zuckerberg", "Jesse Eisenberg"],
+      "respuesta_correcta": "David Fincher"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 1962?",
+      "respuestas": ["Lawrence of Arabia", "To Kill a Mockingbird", "West Side Story", "The Sound of Music"],
+      "respuesta_correcta": "Lawrence of Arabia"
+    },
+    {
+      "pregunta": "¿En qué película Anthony Hopkins interpretó por primera vez a Hannibal Lecter?",
+      "respuestas": ["Hannibal", "Red Dragon", "The Silence of the Lambs", "Hannibal Rising"],
+      "respuesta_correcta": "The Silence of the Lambs"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 2007?",
+      "respuestas": ["No Country for Old Men", "There Will Be Blood", "Juno", "Atonement"],
+      "respuesta_correcta": "No Country for Old Men"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Queen Elizabeth II en la película 'The Queen'?",
+      "respuestas": ["Helen Mirren", "Cate Blanchett", "Judi Dench", "Meryl Streep"],
+      "respuesta_correcta": "Helen Mirren"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 1950?",
+      "respuestas": ["All About Eve", "Sunset Boulevard", "The Third Man", "On the Waterfront"],
+      "respuesta_correcta": "All About Eve"
+    },
+    {
+      "pregunta": "¿En qué película Daniel Day-Lewis interpretó a un petrolero en busca de petróleo en la frontera de California?",
+      "respuestas": ["There Will Be Blood", "Gangs of New York", "Lincoln", "My Left Foot"],
+      "respuesta_correcta": "There Will Be Blood"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 2009?",
+      "respuestas": ["Slumdog Millionaire", "The Curious Case of Benjamin Button", "Milk", "The Reader"],
+      "respuesta_correcta": "Slumdog Millionaire"
+    },
+    {
+      "pregunta": "¿Quién fue el director de fotografía de la película 'The Revenant'?",
+      "respuestas": ["Emmanuel Lubezki", "Hoyte van Hoytema", "Roger Deakins", "Janusz Kamiński"],
+      "respuesta_correcta": "Emmanuel Lubezki"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 1942?",
+      "respuestas": ["Casablanca", "Gone with the Wind", "Citizen Kane", "Rebecca"],
+      "respuesta_correcta": "Casablanca"
+    },
+    {
+      "pregunta": "¿En qué película Natalie Portman ganó el Oscar a la Mejor Actriz en 2011?",
+      "respuestas": ["Black Swan", "V for Vendetta", "Jackie", "The Other Boleyn Girl"],
+      "respuesta_correcta": "Black Swan"
+    },
+    {
+      "pregunta": "¿Cuál es la película que ganó el Oscar a la Mejor Película en 1999?",
+      "respuestas": ["Shakespeare in Love", "Saving Private Ryan", "The Thin Red Line", "American Beauty"],
+      "respuesta_correcta": "Shakespeare in Love"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuánto es 5 + 7?",
+      "respuestas": ["10", "12", "14", "16"],
+      "respuesta_correcta": "12"
+    },
+    {
+      "pregunta": "Si a = 3 y b = 4, ¿cuánto es a^2 + b^2?",
+      "respuestas": ["5", "9", "16", "25"],
+      "respuesta_correcta": "25"
+    },
+    {
+      "pregunta": "¿Cuánto es 8 multiplicado por 3?",
+      "respuestas": ["15", "24", "30", "32"],
+      "respuesta_correcta": "24"
+    },
+    {
+      "pregunta": "Si un triángulo tiene un ángulo recto y otro ángulo de 45 grados, ¿cuánto es el tercer ángulo?",
+      "respuestas": ["30", "45", "60", "90"],
+      "respuesta_correcta": "45"
+    },
+    {
+      "pregunta": "¿Cuánto es la raíz cuadrada de 81?",
+      "respuestas": ["7", "8", "9", "10"],
+      "respuesta_correcta": "9"
+    },
+    {
+      "pregunta": "Si x = 2, ¿cuál es el valor de 3x + 4?",
+      "respuestas": ["6", "8", "10", "12"],
+      "respuesta_correcta": "10"
+    },
+    {
+      "pregunta": "¿Cuánto es 15 dividido por 3?",
+      "respuestas": ["3", "5", "8", "15"],
+      "respuesta_correcta": "5"
+    },
+    {
+      "pregunta": "¿Cuántos lados tiene un triángulo?",
+      "respuestas": ["3", "4", "5", "6"],
+      "respuesta_correcta": "3"
+    },
+    {
+      "pregunta": "Si un rectángulo tiene largo 8 y ancho 5, ¿cuánto es su área?",
+      "respuestas": ["20", "30", "40", "50"],
+      "respuesta_correcta": "40"
+    },
+    {
+      "pregunta": "¿Cuánto es 2 al cubo?",
+      "respuestas": ["4", "8", "12", "16"],
+      "respuesta_correcta": "8"
+    },
+    {
+      "pregunta": "Si a = 6 y b = 2, ¿cuánto es a / b?",
+      "respuestas": ["2", "3", "4", "5"],
+      "respuesta_correcta": "3"
+    },
+    {
+      "pregunta": "¿Cuánto es la suma de los ángulos internos de un cuadrado?",
+      "respuestas": ["180", "360", "450", "540"],
+      "respuesta_correcta": "360"
+    },
+    {
+      "pregunta": "Si el radio de un círculo es 5, ¿cuál es su área?",
+      "respuestas": ["10π", "15π", "20π", "25π"],
+      "respuesta_correcta": "25π"
+    },
+    {
+      "pregunta": "¿Cuánto es 4 factorial?",
+      "respuestas": ["8", "16", "24", "120"],
+      "respuesta_correcta": "24"
+    },
+    {
+      "pregunta": "Si x + 7 = 15, ¿cuánto es x?",
+      "respuestas": ["5", "7", "8", "10"],
+      "respuesta_correcta": "8"
+    },
+    {
+      "pregunta": "¿Cuánto es 9 menos 4?",
+      "respuestas": ["3", "5", "7", "9"],
+      "respuesta_correcta": "5"
+    },
+    {
+      "pregunta": "Si un triángulo equilátero tiene un lado de longitud 6, ¿cuánto es su perímetro?",
+      "respuestas": ["12", "18", "24", "30"],
+      "respuesta_correcta": "18"
+    },
+    {
+      "pregunta": "¿Cuánto es la raíz cuadrada de 25?",
+      "respuestas": ["3", "4", "5", "6"],
+      "respuesta_correcta": "5"
+    },
+    {
+      "pregunta": "Si a = 4 y b = 3, ¿cuánto es a^2 - b^2?",
+      "respuestas": ["1", "5", "7", "9"],
+      "respuesta_correcta": "7"
+    },
+    {
+      "pregunta": "¿Cuánto es 10 por ciento de 80?",
+      "respuestas": ["6", "8", "10", "12"],
+      "respuesta_correcta": "8"
+    },
+    {
+      "pregunta": "Si un cuadrado tiene un lado de longitud 9, ¿cuánto es su área?",
+      "respuestas": ["27", "36", "45", "81"],
+      "respuesta_correcta": "81"
+    },
+    {
+      "pregunta": "¿Cuánto es la suma de los ángulos internos de un triángulo?",
+      "respuestas": ["90", "180", "270", "360"],
+      "respuesta_correcta": "180"
+    },
+    {
+      "pregunta": "Si x = 3, ¿cuánto es 2x + 5?",
+      "respuestas": ["8", "10", "11", "13"],
+      "respuesta_correcta": "11"
+    },
+    {
+      "pregunta": "¿Cuánto es 6 multiplicado por 9?",
+      "respuestas": ["42", "48", "54", "56"],
+      "respuesta_correcta": "54"
+    },
+    {
+      "pregunta": "Si un rectángulo tiene largo 7 y ancho 4, ¿cuánto es su perímetro?",
+      "respuestas": ["14", "18", "22", "24"],
+      "respuesta_correcta": "22"
+    },
+    {
+      "pregunta": "¿Cuánto es 3 al cuadrado?",
+      "respuestas": ["6", "9", "12", "16"],
+      "respuesta_correcta": "9"
+    },
+    {
+      "pregunta": "Si a = 5 y b = 2, ¿cuánto es a + b?",
+      "respuestas": ["6", "7", "8", "9"],
+      "respuesta_correcta": "7"
+    }
+  ]
+}
+
+  

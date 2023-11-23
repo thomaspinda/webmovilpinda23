@@ -1,0 +1,63 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la capital de Burkina Faso?",
+      "respuestas": ["Uagadugú", "Bamako", "Yamena", "Niamey"],
+      "respuesta_correcta": "Uagadugú"
+    },
+    {
+      "pregunta": "¿En qué océano se encuentra la isla de Pascua?",
+      "respuestas": ["Océano Pacífico", "Océano Índico", "Océano Atlántico", "Océano Antártico"],
+      "respuesta_correcta": "Océano Pacífico"
+    },
+    {
+      "pregunta": "¿Cuál es la capital de Bután?",
+      "respuestas": ["Thimphu", "Daca", "Katmandú", "Lhasa"],
+      "respuesta_correcta": "Thimphu"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la región de Transnistria?",
+      "respuestas": ["Moldavia", "Ucrania", "Rusia", "Bielorrusia"],
+      "respuesta_correcta": "Moldavia"
+    },
+    {
+      "pregunta": "¿Cuál es la isla más grande del archipiélago de las islas Svalbard?",
+      "respuestas": ["Spitsbergen", "Barentsøya", "Nordaustlandet", "Edgeøya"],
+      "respuesta_correcta": "Spitsbergen"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra la meseta del Tíbet?",
+      "respuestas": ["India", "China", "Nepal", "Pakistán"],
+      "respuesta_correcta": "China"
+    },    {
+      "pregunta": "¿Cuál es la capital de Eritrea?",
+      "respuestas": ["Asmara", "Yamena", "Niamey", "Ouagadougou"],
+      "respuesta_correcta": "Asmara"
+    },
+    {
+      "pregunta": "¿En qué mar se encuentra el mar de Aral?",
+      "respuestas": ["Mar Caspio", "Mar de Ojotsk", "Mar de Aral", "Mar de Bering"],
+      "respuesta_correcta": "Mar de Aral"
+    },
+    {
+      "pregunta": "¿Cuál es la capital de Surinam?",
+      "respuestas": ["Paramaribo", "Georgetown", "Cayena", "Kingstown"],
+      "respuesta_correcta": "Paramaribo"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra el desierto de Karakum?",
+      "respuestas": ["Turkmenistán", "Uzbekistán", "Afganistán", "Irán"],
+      "respuesta_correcta": "Turkmenistán"
+    },
+    {
+      "pregunta": "¿Cuál es la longitud total del río Amazonas?",
+      "respuestas": ["6,400 km", "7,062 km", "6,992 km", "7,315 km"],
+      "respuesta_correcta": "7,062 km"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra el macizo del Drakensberg?",
+      "respuestas": ["Sudáfrica", "Zimbabue", "Lesoto", "Namibia"],
+      "respuesta_correcta": "Sudáfrica"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la demostración del último teorema de Fermat?",
+      "respuestas": ["No se conoce", "Andrew Wiles", "Evariste Galois", "Pierre de Fermat"],
+      "respuesta_correcta": "Andrew Wiles"
+    },
+    {
+      "pregunta": "¿En qué consiste la conjetura de Riemann?",
+      "respuestas": ["Último teorema de Fermat", "Distribución de números primos", "Teorema de los números primos gemelos", "Hipótesis de Goldbach"],
+      "respuesta_correcta": "Distribución de números primos"
+    },
+    {
+      "pregunta": "Si A y B son matrices, ¿cuál es la relación entre la traza de AB y la traza de BA?",
+      "respuestas": ["Son siempre iguales", "Tr(A*B) = Tr(B*A)", "Tr(A*B) = -Tr(B*A)", "No hay relación específica"],
+      "respuesta_correcta": "Tr(A*B) = Tr(B*A)"
+    },
+    {
+      "pregunta": "¿Cuál es el valor de la constante matemática e elevada a la raíz cuadrada de 163?",
+      "respuestas": ["π", "φ (número áureo)", "e", "√2"],
+      "respuesta_correcta": "φ (número áureo)"
+    },
+    {
+      "pregunta": "¿Cuál es el teorema de Gödel?",
+      "respuestas": ["Teorema de la incompletitud", "Teorema de la convergencia", "Teorema de la dualidad", "Teorema de la unicidad"],
+      "respuesta_correcta": "Teorema de la incompletitud"
+    },
+    {
+      "pregunta": "¿Cuál es la ecuación de Navier-Stokes?",
+      "respuestas": ["Ecuación de la onda", "Ecuación de Laplace", "Ecuación de calor", "Ecuación de fluidos"],
+      "respuesta_correcta": "Ecuación de fluidos"
+    },
+    {
+      "pregunta": "¿Cuántas dimensiones tiene el espacio euclidiano?",
+      "respuestas": ["2", "3", "4", "Infinitas"],
+      "respuesta_correcta": "Infinitas"
+    },
+    {
+      "pregunta": "Si A es una matriz simétrica definida positiva, ¿cuál es la relación entre A y su inversa?",
+      "respuestas": ["A^-1 es simétrica", "A^-1 es definida positiva", "A^-1 es simétrica y definida positiva", "No hay relación específica"],
+      "respuesta_correcta": "A^-1 es simétrica y definida positiva"
+    },
+    {
+      "pregunta": "¿En qué consiste la conjetura de Birch y Swinnerton-Dyer?",
+      "respuestas": ["Último teorema de Fermat", "Clasificación de superficies", "Conjetura sobre las curvas elípticas", "Hipótesis de Riemann"],
+      "respuesta_correcta": "Conjetura sobre las curvas elípticas"
+    },
+    {
+      "pregunta": "Si f(x) es una función analítica en una región simplemente conexa, ¿cuál es el teorema fundamental relacionado?",
+      "respuestas": ["Teorema de Cauchy", "Teorema de Stokes", "Teorema de Green", "Teorema de la función implícita"],
+      "respuesta_correcta": "Teorema de Cauchy"
+    },
+    {
+      "pregunta": "¿Cuál es la función zeta de Riemann?",
+      "respuestas": ["ζ(s) = s(s-1)/2", "ζ(s) = √s", "ζ(s) = e^s", "ζ(s) = π^s"],
+      "respuesta_correcta": "ζ(s) = π^s"
+    },
+    {
+      "pregunta": "¿En qué consiste la conjetura de Hodge?",
+      "respuestas": ["Clasificación de superficies", "Teoría de números", "Topología algebraica", "Geometría algebraica"],
+      "respuesta_correcta": "Topología algebraica"
+    },
+    {
+      "pregunta": "¿Cuál es el teorema de los cuatro colores?",
+      "respuestas": ["Teorema de los polinomios de cuatro colores", "Teorema de los grafos planos", "Teorema de los conjuntos de cuatro colores", "Teorema de los números primos de cuatro colores"],
+      "respuesta_correcta": "Teorema de los grafos planos"
+    },
+    {
+      "pregunta": "Si A y B son matrices cuadradas de orden n, ¿cuál es la relación entre det(A + B) y det(A*B)?",
+      "respuestas": ["det(A + B) = det(A*B)", "det(A + B) = det(A) + det(B)", "det(A + B) = det(A) * det(B)", "No hay relación específica"],
+      "respuesta_correcta": "det(A + B) = det(A) * det(B)"
+    },
+    {
+      "pregunta": "¿Cuál es la ecuación de la variedad algebraica definida por x^2 + y^2 + z^2 = 1?",
+      "respuestas": ["Esfera", "Elipsoide", "Hiperboloide", "Paraboloide"],
+      "respuesta_correcta": "Esfera"
+    },
+    {
+      "pregunta": "¿En qué consiste la conjetura de Keeler?",
+      "respuestas": ["Conjetura sobre los números primos gemelos", "Conjetura sobre las curvas elípticas", "Conjetura de Goldbach", "Conjetura de la hipótesis de Riemann"],
+      "respuesta_correcta": "Conjetura sobre los números primos gemelos"
+    },
+    {
+      "pregunta": "Si A y B son matrices cuadradas de orden n, ¿cuál es la relación entre det(A) y det(B^T)?",
+      "respuestas": ["det(A) = det(B^T)", "det(A) = det(B)", "det(A) = -det(B)", "No hay relación específica"],
+      "respuesta_correcta": "det(A) = det(B^T)"
+    }
+  ]
+}
+
+  

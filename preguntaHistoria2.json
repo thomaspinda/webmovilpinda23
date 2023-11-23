@@ -1,0 +1,65 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿Cuándo y dónde tuvo lugar la Revolución Francesa?",
+        "respuestas": ["1789-1799, Francia", "1820-1830, Rusia", "1917-1923, Alemania", "1642-1651, Inglaterra"],
+        "respuesta_correcta": "1789-1799, Francia"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Rusa en 1917 tras la caída del zar?",
+        "respuestas": ["Vladimir Lenin", "León Trotsky", "Joseph Stalin", "Aleksandr Kerenski"],
+        "respuesta_correcta": "Vladimir Lenin"
+      },
+      {
+        "pregunta": "¿Cuál fue la causa principal de la Guerra de los Cien Años?",
+        "respuestas": ["Disputa territorial entre Francia e Inglaterra", "Lucha por el control del Mediterráneo", "Guerra de religión entre católicos y protestantes", "Invasión mongola en Europa"],
+        "respuesta_correcta": "Disputa territorial entre Francia e Inglaterra"
+      },
+      {
+        "pregunta": "¿En qué año se fundó la Liga de las Naciones?",
+        "respuestas": ["1919", "1924", "1931", "1945"],
+        "respuesta_correcta": "1919"
+      },
+      {
+        "pregunta": "¿Cuál fue el conflicto conocido como la Guerra del Peloponeso y quiénes fueron los principales contendientes?",
+        "respuestas": ["Atenas y Esparta", "Roma y Cartago", "Persia y Grecia", "Inglaterra y Francia"],
+        "respuesta_correcta": "Atenas y Esparta"
+      },
+      {
+        "pregunta": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+        "respuestas": ["Tratado de Versalles", "Tratado de Trianón", "Tratado de Brest-Litovsk", "Tratado de Saint-Germain-en-Laye"],
+        "respuesta_correcta": "Tratado de Versalles"
+      },
+      {
+        "pregunta": "¿Qué evento histórico marcó el comienzo de la Revolución Industrial?",
+        "respuestas": ["Revolución Francesa", "Descubrimiento de América", "Revolución Rusa", "Revolución Industrial"],
+        "respuesta_correcta": "Revolución Industrial"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución China que fundó la República Popular China en 1949?",
+        "respuestas": ["Sun Yat-sen", "Chiang Kai-shek", "Deng Xiaoping", "Mao Zedong"],
+        "respuesta_correcta": "Mao Zedong"
+      },
+      {
+        "pregunta": "¿En qué año se proclamó la independencia de la India?",
+        "respuestas": ["1947", "1950", "1930", "1962"],
+        "respuesta_correcta": "1947"
+      },
+      {
+        "pregunta": "¿Qué evento histórico marcó el final de la Guerra Fría?",
+        "respuestas": ["Caída del Muro de Berlín", "Crack del mercado de valores de 1929", "Colapso de la Unión Soviética", "Invasión de Irak"],
+        "respuesta_correcta": "Colapso de la Unión Soviética"
+      },
+      {
+        "pregunta": "¿Cuál fue la batalla que puso fin a la Guerra de Independencia de Estados Unidos?",
+        "respuestas": ["Batalla de Saratoga", "Batalla de Yorktown", "Batalla de Lexington y Concord", "Batalla de Bunker Hill"],
+        "respuesta_correcta": "Batalla de Yorktown"
+      },
+      {
+        "pregunta": "¿Quién fue el líder de la Revolución Cubana junto a Fidel Castro?",
+        "respuestas": ["Che Guevara", "Raul Castro", "Camilo Cienfuegos", "Batista"],
+        "respuesta_correcta": "Che Guevara"
+      }
+    ]
+  }
+  

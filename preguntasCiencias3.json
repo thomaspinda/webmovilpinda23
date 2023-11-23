@@ -1,0 +1,139 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el nombre de la partícula subatómica neutral compuesta por un quark arriba y un quark abajo?",
+        "respuestas": ["Mesón pi", "Barión lambda", "Kaón", "Neutrino"],
+        "respuesta_correcta": "Mesón pi"
+      },
+      {
+        "pregunta": "¿Cuál es la teoría que unifica las fuerzas electromagnética y débil en una sola fuerza?",
+        "respuestas": ["Teoría electrodébil", "Teoría cuántica", "Teoría de cuerdas", "Teoría del todo"],
+        "respuesta_correcta": "Teoría electrodébil"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del principio que establece que un electrón no puede tener simultáneamente una posición y un momento preciso?",
+        "respuestas": ["Principio de indeterminación de Heisenberg", "Principio de exclusión de Pauli", "Principio de conservación de la energía", "Principio de dualidad de la luz"],
+        "respuesta_correcta": "Principio de indeterminación de Heisenberg"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del proceso mediante el cual las estrellas convierten el hidrógeno en helio mediante reacciones nucleares?",
+        "respuestas": ["Fusión nuclear", "Fisión nuclear", "Captura de neutrones", "Desintegración beta"],
+        "respuesta_correcta": "Fusión nuclear"
+      },
+      {
+        "pregunta": "¿Cuál es el componente principal del núcleo de un átomo?",
+        "respuestas": ["Neutrón", "Protón", "Electrón", "Positrón"],
+        "respuesta_correcta": "Protón"
+      },
+      {
+        "pregunta": "¿En qué año se descubrió el bosón de Higgs en el CERN?",
+        "respuestas": ["2012", "2008", "2010", "2015"],
+        "respuesta_correcta": "2012"
+      },
+      {
+        "pregunta": "¿Cuál es la partícula subatómica responsable de la transmisión de la fuerza electromagnética?",
+        "respuestas": ["Fotón", "Bosón W", "Bosón Z", "Glucón"],
+        "respuesta_correcta": "Fotón"
+      },
+      {
+        "pregunta": "¿Qué es la antimateria?",
+        "respuestas": ["Partículas con cargas opuestas a las partículas normales", "Materia oscura", "Partículas con la misma masa pero diferente carga", "Partículas que solo existen en agujeros negros"],
+        "respuesta_correcta": "Partículas con cargas opuestas a las partículas normales"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del telescopio espacial lanzado por la NASA en 1990?",
+        "respuestas": ["Hubble", "Kepler", "Chandra", "Spitzer"],
+        "respuesta_correcta": "Hubble"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual un núcleo inestable emite radiación al desintegrarse?",
+        "respuestas": ["Radiactividad", "Fisión nuclear", "Fusión nuclear", "Desintegración beta"],
+        "respuesta_correcta": "Radiactividad"
+      },
+      {
+        "pregunta": "¿Cuál es la teoría que describe la estructura de la Tierra en capas concéntricas?",
+        "respuestas": ["Modelo del núcleo y manto", "Modelo de la deriva continental", "Teoría del estado estacionario", "Modelo geocéntrico"],
+        "respuesta_correcta": "Modelo del núcleo y manto"
+      },
+      {
+        "pregunta": "¿Cuál es la partícula subatómica que tiene una masa casi nula y atraviesa la materia sin ser afectada por ella?",
+        "respuestas": ["Neutrino", "Electrón", "Quark", "Fotón"],
+        "respuesta_correcta": "Neutrino"
+      },
+      {
+        "pregunta": "¿Cuál es la molécula responsable del transporte de energía en las células?",
+        "respuestas": ["ATP", "ADN", "ARN", "NADH"],
+        "respuesta_correcta": "ATP"
+      },
+      {
+        "pregunta": "¿Qué científico propuso la teoría heliocéntrica que sitúa al Sol en el centro del sistema solar?",
+        "respuestas": ["Nicolás Copérnico", "Galileo Galilei", "Johannes Kepler", "Isaac Newton"],
+        "respuesta_correcta": "Nicolás Copérnico"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del campo de la física que estudia las propiedades y el comportamiento de la luz?",
+        "respuestas": ["Óptica", "Física cuántica", "Astrofísica", "Física nuclear"],
+        "respuesta_correcta": "Óptica"
+      },
+      {
+        "pregunta": "¿Cuál es la constante que representa la velocidad de la luz en el vacío?",
+        "respuestas": ["299,792,458 metros por segundo", "150,000,000 metros por segundo", "200,000,000 metros por segundo", "250,000,000 metros por segundo"],
+        "respuesta_correcta": "299,792,458 metros por segundo"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre de la teoría que describe la interacción gravitatoria en términos de la geometría del espacio-tiempo?",
+        "respuestas": ["Relatividad general", "Teoría cuántica", "Teoría de la gravitación universal", "Teoría de cuerdas"],
+        "respuesta_correcta": "Relatividad general"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del primer ser vivo que fue enviado al espacio?",
+        "respuestas": ["Laika", "Yuri Gagarin", "Neil Armstrong", "Buzz Aldrin"],
+        "respuesta_correcta": "Laika"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del proceso mediante el cual una estrella agotada colapsa bajo su propia gravedad?",
+        "respuestas": ["Supernova", "Agujero negro", "Enana blanca", "Neutrón"],
+        "respuesta_correcta": "Agujero negro"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre de la partícula subatómica que forma parte de los electrones y los neutrones?",
+        "respuestas": ["Quark", "Leptón", "Barión", "Fermión"],
+        "respuesta_correcta": "Quark"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del proceso que convierte una sustancia directamente del estado sólido al gaseoso?",
+        "respuestas": ["Sublimación", "Evaporación", "Condensación", "Fusión"],
+        "respuesta_correcta": "Sublimación"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del astronauta que fue el primer humano en caminar sobre la Luna?",
+        "respuestas": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
+        "respuesta_correcta": "Neil Armstrong"
+      },
+      {
+        "pregunta": "¿Cuál es la partícula subatómica que se encuentra en la órbita del núcleo y tiene una carga eléctrica negativa?",
+        "respuestas": ["Electrón", "Protón", "Neutrón", "Positrón"],
+        "respuesta_correcta": "Electrón"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del primer satélite artificial lanzado al espacio?",
+        "respuestas": ["Sputnik 1", "Explorer 1", "Vanguard 1", "Luna 1"],
+        "respuesta_correcta": "Sputnik 1"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del proceso por el cual un núcleo atómico emite partículas al desintegrarse?",
+        "respuestas": ["Desintegración radiactiva", "Fisión nuclear", "Fusión nuclear", "Captura de neutrones"],
+        "respuesta_correcta": "Desintegración radiactiva"
+      },
+      {
+        "pregunta": "¿Cuál es el nombre del telescopio espacial lanzado por la ESA en 2009?",
+        "respuestas": ["Hubble", "Chandra", "Spitzer", "Planck"],
+        "respuesta_correcta": "Planck"
+      },
+      {
+        "pregunta": "¿En qué año se realizó el primer vuelo tripulado por humanos?",
+        "respuestas": ["1903", "1911", "1920", "1932"],
+        "respuesta_correcta": "1903"
+      }
+    ]
+}

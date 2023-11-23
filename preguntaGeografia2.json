@@ -1,0 +1,64 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál es la capital de Mongolia?",
+      "respuestas": ["Ulan Bator", "Astana", "Kabul", "Tashkent"],
+      "respuesta_correcta": "Ulan Bator"
+    },
+    {
+      "pregunta": "¿En qué cordillera se encuentra el monte Elbrús, la montaña más alta de Europa?",
+      "respuestas": ["Himalaya", "Andes", "Alpes", "Cáucaso"],
+      "respuesta_correcta": "Cáucaso"
+    },
+    {
+      "pregunta": "¿Cuál es la capital más alta del mundo?",
+      "respuestas": ["La Paz", "Quito", "Kathmandú", "Bogotá"],
+      "respuesta_correcta": "La Paz"
+    },
+    {
+      "pregunta": "¿Cuál es el país más poblado del mundo?",
+      "respuestas": ["India", "China", "Estados Unidos", "Indonesia"],
+      "respuesta_correcta": "China"
+    },
+    {
+      "pregunta": "¿En qué mar se encuentra la isla de Creta?",
+      "respuestas": ["Mar Caspio", "Mar Egeo", "Mar Mediterráneo", "Mar Rojo"],
+      "respuesta_correcta": "Mar Egeo"
+    },
+    {
+      "pregunta": "¿Cuál es el desierto más grande del mundo?",
+      "respuestas": ["Desierto del Sáhara", "Desierto de Gobi", "Desierto de Kalahari", "Desierto de Atacama"],
+      "respuesta_correcta": "Desierto del Sáhara"
+    },
+    {
+      "pregunta": "¿Cuál es la capital de Azerbaiyán?",
+      "respuestas": ["Bakú", "Ereván", "Teherán", "Tiflis"],
+      "respuesta_correcta": "Bakú"
+    },
+    {
+      "pregunta": "¿Cuál es la isla más grande del mundo?",
+      "respuestas": ["Groenlandia", "Australia", "Borneo", "Madagascar"],
+      "respuesta_correcta": "Groenlandia"
+    },
+    {
+      "pregunta": "¿En qué país se encuentra el lago Baikal, el lago más profundo del mundo?",
+      "respuestas": ["Rusia", "Canadá", "China", "Estados Unidos"],
+      "respuesta_correcta": "Rusia"
+    },
+    {
+      "pregunta": "¿Cuál es el país más pequeño del mundo en términos de territorio?",
+      "respuestas": ["Mónaco", "Nauru", "Vaticano", "San Marino"],
+      "respuesta_correcta": "Vaticano"
+    },
+    {
+      "pregunta": "¿En qué cordillera se encuentra la ciudad de Quito?",
+      "respuestas": ["Andes", "Himalaya", "Alpes", "Rocallosas"],
+      "respuesta_correcta": "Andes"
+    },
+    {
+      "pregunta": "¿Cuál es el estrecho que separa Asia de África?",
+      "respuestas": ["Estrecho de Gibraltar", "Estrecho de Bering", "Estrecho de Malaca", "Estrecho de Hormuz"],
+      "respuesta_correcta": "Estrecho de Gibraltar"
+    }
+  ]
+}
