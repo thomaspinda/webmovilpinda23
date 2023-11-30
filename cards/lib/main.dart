@@ -1,4 +1,7 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,14 +30,21 @@ class MyHomePage extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {
-              // Lógica al presionar el botón inferior
-              print('Botón inferior presionado');
+              _launchURL();
             },
             child: Text('Más información'),
           ),
         ],
       ),
     );
+  }
+  _launchURL() async {
+    const url = 'https://www.ulagos.cl';
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'No se pudo abrir la URL $url';
+    }
   }
 }
 
@@ -44,13 +54,13 @@ class CardList extends StatelessWidget {
     return ListView(
       children: [
         CustomCard('Sede Ulagos Osorno', 'Osorno.jpg', () {
-          print('Clicked on Card 1');
+          print('Esta es la Sede de Osorno');
         }),
         CustomCard('Sede Ulagos Puerto Montt', 'PM.jpg', () {
-          print('Clicked on Card 2');
+          print('Esta es la Sede de Puerto Montt');
         }),
         CustomCard('Sede Ulagos Chiloé', 'Chiloe.jpg', () {
-          print('Clicked on Card 3');
+          print('Esta es la Sede de Chiloé');
         }),
       ],
     );
