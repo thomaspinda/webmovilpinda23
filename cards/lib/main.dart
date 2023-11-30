@@ -43,13 +43,13 @@ class CardList extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        CustomCard('Sede Ulagos Osorno', 'assets/image1.jpg', () {
+        CustomCard('Sede Ulagos Osorno', 'Osorno.jpg', () {
           print('Clicked on Card 1');
         }),
-        CustomCard('Sede Ulagos Puerto Montt', 'assets/image2.jpg', () {
+        CustomCard('Sede Ulagos Puerto Montt', 'PM.jpg', () {
           print('Clicked on Card 2');
         }),
-        CustomCard('Sede Ulagos Chiloé', 'assets/image3.jpg', () {
+        CustomCard('Sede Ulagos Chiloé', 'Chiloe.jpg', () {
           print('Clicked on Card 3');
         }),
       ],
