@@ -20,7 +20,20 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Sedes Universidad de Los Lagos'),
       ),
-      body: CardList(),
+      body: Column(
+        children: [
+          Expanded(
+            child: CardList(),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              // Lógica al presionar el botón inferior
+              print('Botón inferior presionado');
+            },
+            child: Text('Más información'),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -31,13 +44,13 @@ class CardList extends StatelessWidget {
     return ListView(
       children: [
         CustomCard('Sede Ulagos Osorno', 'assets/image1.jpg', () {
-          print('');
+          print('Clicked on Card 1');
         }),
         CustomCard('Sede Ulagos Puerto Montt', 'assets/image2.jpg', () {
-          print('');
+          print('Clicked on Card 2');
         }),
         CustomCard('Sede Ulagos Chiloé', 'assets/image3.jpg', () {
-          print('');
+          print('Clicked on Card 3');
         }),
       ],
     );
