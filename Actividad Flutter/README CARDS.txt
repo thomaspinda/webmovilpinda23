@@ -1,0 +1,2 @@
+La aplicación consiste de 3 tarjetas con imagenes que muestran las sedes de la universidad de los lagos, en la parte de abajo se encuentra un botón que deberia redireccionar a la página de Ulagos.
+Mi computador no tiene los recursos necesarios para ejecutar un emulador ni hacer funcionar el programa, el diseño se puede visualizar al pegar el código de main.dart en dartpad.dev
