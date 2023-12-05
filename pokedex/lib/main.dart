@@ -5,8 +5,8 @@ class Pokemon {
   final String nombre;
   final String tipo;
   final String imagen;
-
-  Pokemon({required this.nombre, required this.tipo, required this.imagen});
+  final String numero;
+  Pokemon({required this.nombre, required this.tipo, required this.imagen, required this.numero});
 }
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Pokédex'),
+          title: Text('Pokédek'),
         ),
         body: PokemonCarousel(),
       ),
@@ -29,9 +29,10 @@ class MyApp extends StatelessWidget {
 
 class PokemonCarousel extends StatelessWidget {
   final List<Pokemon> pokemones = [
-    Pokemon(nombre: 'Bulbasaur', tipo: 'Planta', imagen: 'assets/Bulbasaur.jpg'),
-    Pokemon(nombre: 'Charmander', tipo: 'Fuego', imagen: 'assets/Charmander.png'),
-    Pokemon(nombre: 'Squirtle', tipo: 'Agua', imagen: 'assets/Squirtle.jpg'),
+    Pokemon(nombre: 'Bulbasaur', tipo: 'Planta', imagen: 'assets/bulbasaur.png',numero:'#1'),
+    Pokemon(nombre: 'Charmander', tipo: 'Fuego', imagen: 'assets/charmander.png',numero:'#4'),
+    Pokemon(nombre: 'Squirtle', tipo: 'Agua', imagen: 'assets/squirtle.png',numero:'#7'),
+    Pokemon(nombre: 'Pikachu', tipo: 'electrico', imagen: 'assets/pikachu.png',numero:'#25'),
   ];
 
   @override
@@ -73,6 +74,10 @@ class PokemonCard extends StatelessWidget {
             pokemon.nombre,
             style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
           ),
+          Text(
+            pokemon.numero,
+            style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
           SizedBox(height: 5.0),
           Chip(
             label: Text(
@@ -95,7 +100,8 @@ class PokemonCard extends StatelessWidget {
         return Colors.orange;
       case 'agua':
         return Colors.blue;
-      // Agrega más casos según tus tipos de Pokémon
+      case 'electrico':
+        return Colors.yellow;
       default:
         return Colors.grey;
     }
