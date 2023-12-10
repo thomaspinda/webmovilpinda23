@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
-  runApp(MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+      .then((_) {
+    runApp(MyApp());
+  });
 }
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Mi Aplicación Flutter'),
-        ),
         body: MyWidget(),
       ),
     );
@@ -26,7 +27,8 @@ class MyWidget extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: [Colors.blue, Colors.purple],
+          colors: [Colors.blue, Colors.green],
+          
         ),
       ),
       padding: EdgeInsets.all(16.0),
@@ -34,7 +36,7 @@ class MyWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
-            width: 307,
+            width: 340,
             height:40,
             decoration: BoxDecoration(
               color: Colors.white,
@@ -51,7 +53,7 @@ class MyWidget extends StatelessWidget {
             
             child: TextField(
               decoration: InputDecoration(
-                hintText: 'Ingresa algo',
+                hintText: 'Nombre de usuario',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(12.0),
                 ),
@@ -64,7 +66,7 @@ class MyWidget extends StatelessWidget {
           ),
           SizedBox(height: 16.0),
           Container(
-            width: 307,
+            width: 340,
             height:40,
             decoration: BoxDecoration(
               color: Colors.white,
@@ -81,7 +83,7 @@ class MyWidget extends StatelessWidget {
             
             child: TextField(
               decoration: InputDecoration(
-                hintText: 'Ingresa algo',
+                hintText: 'Contraseña',
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(12.0),
                 ),
@@ -95,6 +97,10 @@ class MyWidget extends StatelessWidget {
           SizedBox(height: 16.0),
           ElevatedButton(
             onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => home()),
+            );
             },
             style: ElevatedButton.styleFrom(
               primary: Colors.blue, // Color de fondo del botón
@@ -104,7 +110,7 @@ class MyWidget extends StatelessWidget {
               elevation: 5.0, // Altura de la sombra del botón
             ),
             child: Text(
-              'Mi Botón',
+              'Ingresar',
               style: TextStyle(
                 fontSize: 18.0, // Tamaño del texto dentro del botón
                 color: Colors.white, // Color del texto dentro del botón
@@ -112,6 +118,19 @@ class MyWidget extends StatelessWidget {
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+class home extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Segunda Página'),
+      ),
+      body: Center(
+        child: Text('Contenido de la segunda página'),
       ),
     );
   }
