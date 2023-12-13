@@ -1,5 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+import 'package:file_picker/file_picker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,6 +32,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   AudioPlayer? _player;
   bool _isPlaying = false;
+  String _filePath = "";
 
   @override
   void dispose() {
@@ -41,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _togglePlayPause() {
     if (_player == null) {
       final player = AudioPlayer();
-      player.play(AssetSource('Intermision.mp3'));
+      player.play(AssetSource(_filePath));
       setState(() {
         _player = player;
         _isPlaying = true;
@@ -62,14 +64,16 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue,
-      body: Container(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            Text(
-              'Click on the play/pause button to control the audio',
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Column(children: [
+            ElevatedButton(
+              onPressed: _pickFile,
+              child: const Text('Escoja un archivo'),
             ),
-          ],
+            Text(_filePath),
+          ]),
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
@@ -87,5 +91,18 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
     );
+  }
+
+  Future<void> _pickFile() async {
+    FilePickerResult? result = await FilePicker.platform.pickFiles(
+      type: FileType.audio,
+      allowMultiple: false,
+    );
+
+    if (result != null) {
+      setState(() {
+        _filePath = result.files.first.path!;
+      });
+    }
   }
 }
