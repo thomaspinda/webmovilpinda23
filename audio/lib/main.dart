@@ -34,6 +34,19 @@ class _MyHomePageState extends State<MyHomePage> {
   bool _isPlaying = false;
   String _filePath = "";
 
+  Future<void> _pickFile() async {
+    FilePickerResult? result = await FilePicker.platform.pickFiles(
+      type: FileType.audio,
+      allowMultiple: false,
+    );
+
+    if (result != null) {
+      setState(() {
+        _filePath = result.files.first.path!;
+      });
+    }
+  }
+
   @override
   void dispose() {
     _player?.dispose();
@@ -43,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _togglePlayPause() {
     if (_player == null) {
       final player = AudioPlayer();
-      player.play(AssetSource(_filePath));
+      player.play(DeviceFileSource(_filePath));
       setState(() {
         _player = player;
         _isPlaying = true;
@@ -72,7 +85,6 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: _pickFile,
               child: const Text('Escoja un archivo'),
             ),
-            Text(_filePath),
           ]),
         ),
       ),
@@ -91,18 +103,5 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
     );
-  }
-
-  Future<void> _pickFile() async {
-    FilePickerResult? result = await FilePicker.platform.pickFiles(
-      type: FileType.audio,
-      allowMultiple: false,
-    );
-
-    if (result != null) {
-      setState(() {
-        _filePath = result.files.first.path!;
-      });
-    }
   }
 }
