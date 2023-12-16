@@ -1,9 +1,14 @@
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:flutter/services.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+      .then((_) {
+    runApp(const MyApp());
+  });
 }
 
 class MyApp extends StatelessWidget {
@@ -32,7 +37,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   AudioPlayer? _player;
   bool _isPlaying = false;
-  String _filePath = "";
+  final List<String> _filePaths = [];
 
   Future<void> _pickFile() async {
     FilePickerResult? result = await FilePicker.platform.pickFiles(
@@ -42,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     if (result != null) {
       setState(() {
-        _filePath = result.files.first.path!;
+        _filePaths.add(result.files.first.path!);
       });
     }
   }
@@ -53,15 +58,27 @@ class _MyHomePageState extends State<MyHomePage> {
     super.dispose();
   }
 
-  void _togglePlayPause() {
+  void _togglePlayPause(String filePath) {
     if (_player == null) {
       final player = AudioPlayer();
-      player.play(DeviceFileSource(_filePath));
+      player.play(DeviceFileSource(filePath));
       setState(() {
         _player = player;
         _isPlaying = true;
       });
     } else {
+      _player!.stop();
+      final player = AudioPlayer();
+      player.play(DeviceFileSource(filePath));
+      setState(() {
+        _player = player;
+        _isPlaying = true;
+      });
+    }
+  }
+
+  // ignore: non_constant_identifier_names
+  void _BotonPlay() {
       if (_isPlaying) {
         _player?.pause();
       } else {
@@ -71,21 +88,43 @@ class _MyHomePageState extends State<MyHomePage> {
         _isPlaying = !_isPlaying;
       });
     }
+  void _stopAudio() {
+    if (_player != null && _isPlaying) {
+      _player?.stop();
+      _player = null;
+      setState(() {
+        _isPlaying = false;
+      });
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: const Color.fromARGB(255, 255, 0, 212),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(10),
-          child: Column(children: [
-            ElevatedButton(
-              onPressed: _pickFile,
-              child: const Text('Escoja un archivo'),
-            ),
-          ]),
+          child: Column(
+            children: [
+              ElevatedButton(
+                onPressed: _pickFile,
+                child: const Text('Escoja un archivo'),
+              ),
+              const SizedBox(height: 16),
+              for (var filePath in _filePaths)
+                ElevatedButton(
+                  onPressed: () => _togglePlayPause(filePath),
+                  child: Text(
+                      filePath.split('/').last), // Display only the file name
+                ),
+              const SizedBox(height: 16),
+              ElevatedButton(
+                onPressed: _stopAudio,
+                child: const Icon(Icons.stop),
+              ),
+            ],
+          ),
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
@@ -93,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
         widthFactor: 0.2,
         heightFactor: 0.1,
         child: FloatingActionButton(
-          onPressed: _togglePlayPause,
+          onPressed: _BotonPlay,
           tooltip: 'Play/Pause',
           backgroundColor: Colors.green,
           heroTag: true,
