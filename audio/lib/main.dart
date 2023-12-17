@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/services.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
       ),
       home: const MyHomePage(),
       debugShowCheckedModeBanner: false,
@@ -37,7 +38,26 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   AudioPlayer? _player;
   bool _isPlaying = false;
-  final List<String> _filePaths = [];
+  List<String> _filePaths = [];
+  TextEditingController _customButtonNameController = TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+    _loadSavedFiles();
+  }
+
+  Future<void> _loadSavedFiles() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      _filePaths = prefs.getStringList('filePaths') ?? [];
+    });
+  }
+
+  Future<void> _saveFiles() async {
+    final prefs = await SharedPreferences.getInstance();
+    prefs.setStringList('filePaths', _filePaths);
+  }
 
   Future<void> _pickFile() async {
     FilePickerResult? result = await FilePicker.platform.pickFiles(
@@ -46,10 +66,63 @@ class _MyHomePageState extends State<MyHomePage> {
     );
 
     if (result != null) {
-      setState(() {
-        _filePaths.add(result.files.first.path!);
-      });
+      String filePath = result.files.first.path!;
+
+      // Mostrar un diálogo para ingresar un nombre personalizado
+      await _showCustomButtonNameDialog(filePath);
     }
+  }
+
+  Future<void> _showCustomButtonNameDialog(String filePath) async {
+    return showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Nombre personalizado'),
+          content: Column(
+            children: [
+              Text('Ingrese un nombre personalizado para el botón:'),
+              TextField(
+                controller: _customButtonNameController,
+                decoration: InputDecoration(labelText: 'Nombre'),
+              ),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text('Cancelar'),
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+                _saveCustomButtonName(filePath);
+              },
+              child: Text('Guardar'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _saveCustomButtonName(String filePath) {
+    setState(() {
+      String customButtonName = _customButtonNameController.text.isNotEmpty
+          ? _customButtonNameController.text
+          : 'Reproducir';
+
+      // Agregar el nombre personalizado y la ruta del archivo a la lista
+      _filePaths.add('$customButtonName|$filePath');
+
+      // Limpiar el controlador después de guardar
+      _customButtonNameController.clear();
+
+      // Guardar la lista actualizada
+      _saveFiles();
+    });
   }
 
   @override
@@ -58,36 +131,41 @@ class _MyHomePageState extends State<MyHomePage> {
     super.dispose();
   }
 
-  void _togglePlayPause(String filePath) {
-    if (_player == null) {
-      final player = AudioPlayer();
-      player.play(DeviceFileSource(filePath));
-      setState(() {
-        _player = player;
-        _isPlaying = true;
-      });
-    } else {
-      _player!.stop();
-      final player = AudioPlayer();
-      player.play(DeviceFileSource(filePath));
-      setState(() {
-        _player = player;
-        _isPlaying = true;
-      });
+  void _togglePlayPause(String filePathWithCustomName) {
+    final parts = filePathWithCustomName.split('|');
+    if (parts.length == 2) {
+      String filePath = parts[1];
+
+      if (_player == null) {
+        final player = AudioPlayer();
+        player.play(DeviceFileSource(filePath));
+        setState(() {
+          _player = player;
+          _isPlaying = true;
+        });
+      } else {
+        _player!.stop();
+        final player = AudioPlayer();
+        player.play(DeviceFileSource(filePath));
+        setState(() {
+          _player = player;
+          _isPlaying = true;
+        });
+      }
     }
   }
 
-  // ignore: non_constant_identifier_names
   void _BotonPlay() {
-      if (_isPlaying) {
-        _player?.pause();
-      } else {
-        _player?.resume();
-      }
-      setState(() {
-        _isPlaying = !_isPlaying;
-      });
+    if (_isPlaying) {
+      _player?.pause();
+    } else {
+      _player?.resume();
     }
+    setState(() {
+      _isPlaying = !_isPlaying;
+    });
+  }
+
   void _stopAudio() {
     if (_player != null && _isPlaying) {
       _player?.stop();
@@ -98,26 +176,97 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
+  Widget _buildFileButton(String filePath, int index) {
+    return SizedBox(
+      width: 200,
+      height: 50,
+      child: GestureDetector(
+        onLongPress: () {
+          _showDeleteDialog(filePath, index);
+        },
+        child: ElevatedButton(
+          onPressed: () => _togglePlayPause(filePath),
+          child: Text(filePath.split('|').first),
+        ),
+      ),
+    );
+  }
+
+  Future<void> _showDeleteDialog(String filePath, int index) async {
+    return showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Eliminar archivo'),
+          content: Text('¿Está seguro de que desea eliminar este archivo?'),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text('Cancelar'),
+            ),
+            TextButton(
+              onPressed: () {
+                _deleteFile(index);
+                Navigator.of(context).pop();
+              },
+              child: Text('Eliminar'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _deleteFile(int index) {
+    setState(() {
+      _filePaths.removeAt(index);
+      _saveFiles();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 255, 0, 212),
+      appBar: AppBar(
+        title: const Text('Music Player'),
+      ),
+      drawer: Drawer(
+        child: Column(
+          children: [
+            const DrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.pink,
+              ),
+              child: Center(
+                child: Text(
+                  'Menú',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 24,
+                  ),
+                ),
+              ),
+            ),
+            ListTile(
+              title: const Text('Escoja un archivo'),
+              onTap: () {
+                Navigator.pop(context);
+                _pickFile();
+              },
+            ),
+          ],
+        ),
+      ),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(10),
           child: Column(
             children: [
-              ElevatedButton(
-                onPressed: _pickFile,
-                child: const Text('Escoja un archivo'),
-              ),
               const SizedBox(height: 16),
-              for (var filePath in _filePaths)
-                ElevatedButton(
-                  onPressed: () => _togglePlayPause(filePath),
-                  child: Text(
-                      filePath.split('/').last), // Display only the file name
-                ),
+              for (int index = 0; index < _filePaths.length; index++)
+                _buildFileButton(_filePaths[index], index),
               const SizedBox(height: 16),
               ElevatedButton(
                 onPressed: _stopAudio,
