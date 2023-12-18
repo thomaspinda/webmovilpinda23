@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.green,
       ),
       home: const MyHomePage(),
       debugShowCheckedModeBanner: false,
@@ -39,7 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
   AudioPlayer? _player;
   bool _isPlaying = false;
   List<String> _filePaths = [];
-  TextEditingController _customButtonNameController = TextEditingController();
+  final TextEditingController _customButtonNameController =
+      TextEditingController();
 
   @override
   void initState() {
@@ -67,8 +68,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
     if (result != null) {
       String filePath = result.files.first.path!;
-
-      // Mostrar un diálogo para ingresar un nombre personalizado
       await _showCustomButtonNameDialog(filePath);
     }
   }
@@ -78,13 +77,13 @@ class _MyHomePageState extends State<MyHomePage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Nombre personalizado'),
+          title: const Text('Nombre personalizado'),
           content: Column(
             children: [
-              Text('Ingrese un nombre personalizado para el botón:'),
+              const Text('Ingrese un nombre personalizado para el botón:'),
               TextField(
                 controller: _customButtonNameController,
-                decoration: InputDecoration(labelText: 'Nombre'),
+                decoration: const InputDecoration(labelText: 'Nombre'),
               ),
             ],
           ),
@@ -93,14 +92,14 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text('Cancelar'),
+              child: const Text('Cancelar'),
             ),
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
                 _saveCustomButtonName(filePath);
               },
-              child: Text('Guardar'),
+              child: const Text('Guardar'),
             ),
           ],
         );
@@ -125,12 +124,6 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  @override
-  void dispose() {
-    _player?.dispose();
-    super.dispose();
-  }
-
   void _togglePlayPause(String filePathWithCustomName) {
     final parts = filePathWithCustomName.split('|');
     if (parts.length == 2) {
@@ -143,6 +136,10 @@ class _MyHomePageState extends State<MyHomePage> {
           _player = player;
           _isPlaying = true;
         });
+       Navigator.push(
+         context,
+         MaterialPageRoute(builder: (context) => NowPlayingScreen(filePathWithCustomName)),
+       );
       } else {
         _player!.stop();
         final player = AudioPlayer();
@@ -155,7 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  void _BotonPlay() {
+  void _botonplay() {
     if (_isPlaying) {
       _player?.pause();
     } else {
@@ -175,20 +172,30 @@ class _MyHomePageState extends State<MyHomePage> {
       });
     }
   }
-
   Widget _buildFileButton(String filePath, int index) {
-    return SizedBox(
-      width: 200,
-      height: 50,
-      child: GestureDetector(
-        onLongPress: () {
-          _showDeleteDialog(filePath, index);
-        },
-        child: ElevatedButton(
-          onPressed: () => _togglePlayPause(filePath),
-          child: Text(filePath.split('|').first),
+    
+    return Column(
+      children: [
+        const SizedBox(height: 10),
+        SizedBox(
+          width: 200,
+          height: 50,
+          child: GestureDetector(
+            onLongPress: () {
+              _showDeleteDialog(filePath, index);
+            },
+            child: ElevatedButton(
+              onPressed: () => _togglePlayPause(filePath),
+              style: ElevatedButton.styleFrom(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: Text(filePath.split('|').first),
+            ),
+          ),
         ),
-      ),
+      ],
     );
   }
 
@@ -197,21 +204,22 @@ class _MyHomePageState extends State<MyHomePage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Eliminar archivo'),
-          content: Text('¿Está seguro de que desea eliminar este archivo?'),
+          title: const Text('Eliminar archivo'),
+          content:
+              const Text('¿Está seguro de que desea eliminar este archivo?'),
           actions: [
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text('Cancelar'),
+              child: const Text('Cancelar'),
             ),
             TextButton(
               onPressed: () {
                 _deleteFile(index);
                 Navigator.of(context).pop();
               },
-              child: Text('Eliminar'),
+              child: const Text('Eliminar'),
             ),
           ],
         );
@@ -281,13 +289,34 @@ class _MyHomePageState extends State<MyHomePage> {
         widthFactor: 0.2,
         heightFactor: 0.1,
         child: FloatingActionButton(
-          onPressed: _BotonPlay,
+          onPressed: _botonplay,
           tooltip: 'Play/Pause',
           backgroundColor: Colors.green,
           heroTag: true,
           child: _isPlaying
               ? const Icon(Icons.pause, size: 50.0)
               : const Icon(Icons.play_arrow, size: 50.0),
+        ),
+      ),
+    );
+  }
+}
+
+class NowPlayingScreen extends StatelessWidget {
+  final String filePathWithCustomName;
+  NowPlayingScreen(this.filePathWithCustomName);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Now Playing'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(filePathWithCustomName.split('|').first),
+          ],
         ),
       ),
     );
