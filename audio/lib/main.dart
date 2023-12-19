@@ -1,8 +1,13 @@
+// ignore_for_file: no_leading_underscores_for_local_identifiers
+
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/services.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:image_picker/image_picker.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,12 +22,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.green,
-      ),
-      home: const MyHomePage(),
+      home: MyHomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -36,11 +38,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  int _currentSongIndex = 0;
   AudioPlayer? _player;
   bool _isPlaying = false;
-  List<String> _filePaths = [];
-  final TextEditingController _customButtonNameController =
-      TextEditingController();
+  List<AudioButton> _audioButtons = [];
 
   @override
   void initState() {
@@ -51,13 +52,26 @@ class _MyHomePageState extends State<MyHomePage> {
   Future<void> _loadSavedFiles() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      _filePaths = prefs.getStringList('filePaths') ?? [];
+      final savedButtons = prefs.getStringList('audioButtons') ?? [];
+      _audioButtons = savedButtons.map((buttonData) {
+        final parts = buttonData.split('|');
+        return AudioButton(
+          name: parts[0],
+          autorname: parts[1],
+          filePath: parts[2],
+          backgroundImage: parts[3],
+        );
+      }).toList();
     });
   }
 
-  Future<void> _saveFiles() async {
+  Future<void> _saveButtons() async {
     final prefs = await SharedPreferences.getInstance();
-    prefs.setStringList('filePaths', _filePaths);
+    final savedButtons = _audioButtons
+        .map((button) =>
+            '${button.name}|${button.autorname}|${button.filePath}|${button.backgroundImage}')
+        .toList();
+    prefs.setStringList('audioButtons', savedButtons);
   }
 
   Future<void> _pickFile() async {
@@ -68,22 +82,46 @@ class _MyHomePageState extends State<MyHomePage> {
 
     if (result != null) {
       String filePath = result.files.first.path!;
-      await _showCustomButtonNameDialog(filePath);
+      await _showCustomButtonDialog(filePath);
     }
   }
 
-  Future<void> _showCustomButtonNameDialog(String filePath) async {
+  Future<void> _showCustomButtonDialog(String filePath) async {
+    final TextEditingController _customButtonNameController =
+        TextEditingController();
+    final TextEditingController _customButtomAuthorController =
+        TextEditingController();
+    File? _customButtonImage;
+
     return showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text('Nombre personalizado'),
+          title: const Text('Configuración del botón'),
           content: Column(
             children: [
-              const Text('Ingrese un nombre personalizado para el botón:'),
+              const Text('Ingrese el nombre de la canción:'),
               TextField(
                 controller: _customButtonNameController,
                 decoration: const InputDecoration(labelText: 'Nombre'),
+              ),
+              const Text('Ingrese el nombre del autor'),
+              TextField(
+                controller: _customButtomAuthorController,
+                decoration: const InputDecoration(labelText: 'Autor'),
+              ),
+              ElevatedButton(
+                onPressed: () async {
+                  final pickedFile = await ImagePicker()
+                      .pickImage(source: ImageSource.gallery);
+
+                  if (pickedFile != null) {
+                    setState(() {
+                      _customButtonImage = File(pickedFile.path);
+                    });
+                  }
+                },
+                child: const Text('Seleccionar imagen'),
               ),
             ],
           ),
@@ -97,7 +135,16 @@ class _MyHomePageState extends State<MyHomePage> {
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
-                _saveCustomButtonName(filePath);
+                _saveCustomButton(
+                  _customButtonNameController.text.isNotEmpty
+                      ? _customButtonNameController.text
+                      : 'Sin nombre',
+                  _customButtomAuthorController.text.isNotEmpty
+                      ? _customButtomAuthorController.text
+                      : 'Artista desconocido',
+                  filePath,
+                  _customButtonImage,
+                );
               },
               child: const Text('Guardar'),
             ),
@@ -107,48 +154,74 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  void _saveCustomButtonName(String filePath) {
+  void _saveCustomButton(
+      String name, String autorname, String filePath, File? backgroundImage) {
     setState(() {
-      String customButtonName = _customButtonNameController.text.isNotEmpty
-          ? _customButtonNameController.text
-          : 'Reproducir';
-
-      // Agregar el nombre personalizado y la ruta del archivo a la lista
-      _filePaths.add('$customButtonName|$filePath');
-
-      // Limpiar el controlador después de guardar
-      _customButtonNameController.clear();
-
-      // Guardar la lista actualizada
-      _saveFiles();
+      final newButton = AudioButton(
+        // ID único basado en el tamaño actual de la lista
+        name: name,
+        autorname: autorname,
+        filePath: filePath,
+        backgroundImage: '',
+      );
+      if (backgroundImage != null) {
+        newButton.backgroundImage = backgroundImage.path;
+      }
+      _audioButtons.add(newButton);
+      _saveButtons();
     });
   }
 
-  void _togglePlayPause(String filePathWithCustomName) {
-    final parts = filePathWithCustomName.split('|');
-    if (parts.length == 2) {
-      String filePath = parts[1];
+  void _togglePlayPause(AudioButton button) {
+    if (_player == null) {
+      final player = AudioPlayer();
+      player.play(DeviceFileSource(button.filePath));
+      setState(() {
+        _player = player;
+        _isPlaying = true;
+      });
+    } else {
+      _player!.stop();
+      final player = AudioPlayer();
+      player.play(DeviceFileSource(button.filePath));
+      setState(() {
+        _player = player;
+        _isPlaying = true;
+      });
+    }
+  }
 
-      if (_player == null) {
-        final player = AudioPlayer();
-        player.play(DeviceFileSource(filePath));
-        setState(() {
-          _player = player;
-          _isPlaying = true;
-        });
-       Navigator.push(
-         context,
-         MaterialPageRoute(builder: (context) => NowPlayingScreen(filePathWithCustomName)),
-       );
-      } else {
+  void _playNextSong() {
+    if (_audioButtons.isNotEmpty) {
+      final nextIndex = (_currentSongIndex + 1) % _audioButtons.length;
+      final nextSong = _audioButtons[nextIndex];
+      if (_player != null) {
         _player!.stop();
-        final player = AudioPlayer();
-        player.play(DeviceFileSource(filePath));
-        setState(() {
-          _player = player;
-          _isPlaying = true;
-        });
       }
+      final player = AudioPlayer();
+      player.play(DeviceFileSource(nextSong.filePath));
+      setState(() {
+        _player = player;
+        _isPlaying = true;
+        _currentSongIndex = nextIndex;
+      });
+    }
+  }
+
+  void _playPreviousSong() {
+    if (_audioButtons.isNotEmpty) {
+      final nextIndex = (_currentSongIndex - 1) % _audioButtons.length;
+      final nextSong = _audioButtons[nextIndex];
+      if (_player != null) {
+        _player!.stop();
+      }
+      final player = AudioPlayer();
+      player.play(DeviceFileSource(nextSong.filePath));
+      setState(() {
+        _player = player;
+        _isPlaying = true;
+        _currentSongIndex = nextIndex;
+      });
     }
   }
 
@@ -163,35 +236,73 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void _stopAudio() {
-    if (_player != null && _isPlaying) {
-      _player?.stop();
-      _player = null;
-      setState(() {
-        _isPlaying = false;
-      });
-    }
-  }
-  Widget _buildFileButton(String filePath, int index) {
-    
+  Widget _buildAudioButton(AudioButton button) {
     return Column(
       children: [
         const SizedBox(height: 10),
         SizedBox(
-          width: 200,
-          height: 50,
+          width: 450,
+          height: 70,
           child: GestureDetector(
             onLongPress: () {
-              _showDeleteDialog(filePath, index);
+              _showPopupMenu(button);
             },
-            child: ElevatedButton(
-              onPressed: () => _togglePlayPause(filePath),
-              style: ElevatedButton.styleFrom(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
+            child: Stack(
+              children: [
+                // Botón con fondo de imagen
+                ElevatedButton(
+                  onPressed: () => _togglePlayPause(button),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.black,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(50),
+                    ),
+                    padding: EdgeInsets.zero,
+                  ),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(50),
+                    ),
+                    child: Container(
+                      width: 450,
+                      height: 70,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(50),
+                        image: DecorationImage(
+                          image: button.backgroundImage.isNotEmpty
+                              ? FileImage(File(button.backgroundImage))
+                              : const AssetImage('assets/default_image.jpg')
+                                  as ImageProvider,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
-              ),
-              child: Text(filePath.split('|').first),
+                Positioned.fill(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        button.name,
+                        style: const TextStyle(
+                          color: Color.fromARGB(255, 0, 255, 8),
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
+                      ),
+                      Text(
+                        button.autorname,
+                        style: const TextStyle(
+                          color: Color.fromARGB(255, 0, 255, 8),
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
             ),
           ),
         ),
@@ -199,25 +310,25 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Future<void> _showDeleteDialog(String filePath, int index) async {
-    return showDialog(
+  void _showPopupMenu(AudioButton button) {
+    showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text('Eliminar archivo'),
+          title: const Text('Eliminar botón'),
           content:
-              const Text('¿Está seguro de que desea eliminar este archivo?'),
+              const Text('¿Estás seguro de que deseas eliminar este botón?'),
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop();
+                Navigator.of(context).pop(); // Cancelar
               },
               child: const Text('Cancelar'),
             ),
             TextButton(
               onPressed: () {
-                _deleteFile(index);
-                Navigator.of(context).pop();
+                Navigator.of(context).pop(); // Cerrar el diálogo
+                _stopAndRemoveButton(button);
               },
               child: const Text('Eliminar'),
             ),
@@ -227,11 +338,60 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  void _deleteFile(int index) {
+  void _stopAndRemoveButton(AudioButton button) {
+    if (_player != null && _isPlaying) {
+      _player!.stop();
+      setState(() {
+        _isPlaying = false;
+      });
+    }
     setState(() {
-      _filePaths.removeAt(index);
-      _saveFiles();
+      _audioButtons.remove(button);
+      _saveButtons();
     });
+  }
+
+  Widget _buildBottomControls() {
+    return Positioned(
+      bottom: 0,
+      left: 0,
+      right: 0,
+      child: Container(
+        height: 100,
+        decoration: const BoxDecoration(
+          color: Colors.black,
+          borderRadius: BorderRadius.vertical(
+              top: Radius.circular(40)), // Ajusta el radio de los bordes aquí
+        ), // Color de fondo
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            IconButton(
+              icon: const Icon(Icons.skip_previous,
+                  size: 40, color: Colors.white),
+              onPressed: () {
+                _playPreviousSong();
+              },
+            ),
+            FloatingActionButton(
+              onPressed: _botonplay,
+              tooltip: 'Play/Pause',
+              backgroundColor: Colors.green,
+              heroTag: true,
+              child: _isPlaying
+                  ? const Icon(Icons.pause, size: 50.0)
+                  : const Icon(Icons.play_arrow, size: 50.0),
+            ),
+            IconButton(
+              icon: const Icon(Icons.skip_next, size: 40, color: Colors.white),
+              onPressed: () {
+                _playNextSong();
+              },
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
   @override
@@ -245,13 +405,17 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.pink,
+                gradient: LinearGradient(
+                  colors: [Color.fromARGB(255, 15, 68, 112),Colors.blue], // Colores del gradiente
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
               ),
               child: Center(
                 child: Text(
                   'Menú',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.green,
                     fontSize: 24,
                   ),
                 ),
@@ -267,58 +431,58 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(10),
-          child: Column(
-            children: [
-              const SizedBox(height: 16),
-              for (int index = 0; index < _filePaths.length; index++)
-                _buildFileButton(_filePaths[index], index),
-              const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: _stopAudio,
-                child: const Icon(Icons.stop),
-              ),
-            ],
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              Colors.blue,
+              Color.fromARGB(255, 0, 201, 7),
+              Colors.green,
+            ], // Colores del gradiente
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
           ),
         ),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      floatingActionButton: FractionallySizedBox(
-        widthFactor: 0.2,
-        heightFactor: 0.1,
-        child: FloatingActionButton(
-          onPressed: _botonplay,
-          tooltip: 'Play/Pause',
-          backgroundColor: Colors.green,
-          heroTag: true,
-          child: _isPlaying
-              ? const Icon(Icons.pause, size: 50.0)
-              : const Icon(Icons.play_arrow, size: 50.0),
+        child: Stack(
+          children: [
+            Center(
+              child: Padding(
+                padding: const EdgeInsets.all(10),
+                child: Column(
+                  children: [
+                    const SizedBox(height: 16),
+                    Expanded(
+                      child: ListView.builder(
+                        itemCount: _audioButtons.length,
+                        itemBuilder: (context, index) =>
+                            _buildAudioButton(_audioButtons[index]),
+                      ),
+                    ),
+                    const SizedBox(height: 16),
+                  ],
+                ),
+              ),
+            ),
+            _buildBottomControls(),
+          ],
         ),
       ),
     );
   }
 }
 
-class NowPlayingScreen extends StatelessWidget {
-  final String filePathWithCustomName;
-  NowPlayingScreen(this.filePathWithCustomName);
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Now Playing'),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(filePathWithCustomName.split('|').first),
-          ],
-        ),
-      ),
-    );
-  }
+class AudioButton {
+  final String name;
+  final String autorname;
+  final String filePath;
+  String backgroundImage;
+  final double maxWidth; // Nueva propiedad para el ancho máximo del botón
+
+  AudioButton({
+    required this.name,
+    required this.autorname,
+    required this.filePath,
+    this.backgroundImage = '',
+    this.maxWidth = 500, // Ancho máximo por defecto
+  });
 }
