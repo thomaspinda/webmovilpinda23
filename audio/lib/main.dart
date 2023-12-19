@@ -158,7 +158,6 @@ class _MyHomePageState extends State<MyHomePage> {
       String name, String autorname, String filePath, File? backgroundImage) {
     setState(() {
       final newButton = AudioButton(
-        // ID único basado en el tamaño actual de la lista
         name: name,
         autorname: autorname,
         filePath: filePath,
@@ -249,7 +248,6 @@ class _MyHomePageState extends State<MyHomePage> {
             },
             child: Stack(
               children: [
-                // Botón con fondo de imagen
                 ElevatedButton(
                   onPressed: () => _togglePlayPause(button),
                   style: ElevatedButton.styleFrom(
@@ -321,13 +319,13 @@ class _MyHomePageState extends State<MyHomePage> {
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop(); // Cancelar
+                Navigator.of(context).pop(); 
               },
               child: const Text('Cancelar'),
             ),
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop(); // Cerrar el diálogo
+                Navigator.of(context).pop();
                 _stopAndRemoveButton(button);
               },
               child: const Text('Eliminar'),
@@ -361,7 +359,7 @@ class _MyHomePageState extends State<MyHomePage> {
         decoration: const BoxDecoration(
           color: Colors.black,
           borderRadius: BorderRadius.vertical(
-              top: Radius.circular(40)), // Ajusta el radio de los bordes aquí
+              top: Radius.circular(40)),
         ), // Color de fondo
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -396,34 +394,37 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Music Player'),
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+  ));
+
+  return Scaffold(
+    appBar: AppBar(
+      backgroundColor: Colors.blue,
+      elevation: 0,
+      flexibleSpace: Padding(
+        padding: const EdgeInsets.only(top: 50.0),
+        child: Container(
+            width: 200.0,
+            height: 200.0,
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/LOGO.png'),
+            ),
+            
+          ),
+        ),
       ),
+    ),
+
       drawer: Drawer(
+        backgroundColor: const Color.fromARGB(255, 21, 56, 255),
         child: Column(
           children: [
-            const DrawerHeader(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [Color.fromARGB(255, 15, 68, 112),Colors.blue], // Colores del gradiente
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
-              ),
-              child: Center(
-                child: Text(
-                  'Menú',
-                  style: TextStyle(
-                    color: Colors.green,
-                    fontSize: 24,
-                  ),
-                ),
-              ),
-            ),
+            const SizedBox(height: 16),
             ListTile(
               title: const Text('Escoja un archivo'),
-              onTap: () {
+              onTap: (){
                 Navigator.pop(context);
                 _pickFile();
               },
@@ -436,9 +437,11 @@ class _MyHomePageState extends State<MyHomePage> {
           gradient: LinearGradient(
             colors: [
               Colors.blue,
-              Color.fromARGB(255, 0, 201, 7),
-              Colors.green,
-            ], // Colores del gradiente
+                Colors.blue,
+                Color.fromARGB(255, 0, 201, 7),
+                Color.fromARGB(255, 0, 201, 7),
+
+            ],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -476,13 +479,11 @@ class AudioButton {
   final String autorname;
   final String filePath;
   String backgroundImage;
-  final double maxWidth; // Nueva propiedad para el ancho máximo del botón
 
   AudioButton({
     required this.name,
     required this.autorname,
     required this.filePath,
     this.backgroundImage = '',
-    this.maxWidth = 500, // Ancho máximo por defecto
   });
 }
