@@ -1,0 +1,12 @@
+version: 1.0
+runtime: nodejs16
+instance_configuration:
+  cpu: 1024
+  memory: 2048
+source:
+  repository_type: GitHub
+  repository_url: https://github.com/thomaspinda/web.git
+  branch: main
+build_command: npm install
+start_command: npm start
+port: 8080
